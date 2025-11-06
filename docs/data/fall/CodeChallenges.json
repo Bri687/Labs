@@ -1,0 +1,510 @@
+[
+  {
+    "fileName" : "'Name, Age, and Pi' - Basic Constants & Variables",
+    "lessonID" : "SF02"
+  },
+  {
+    "fileName" : "'Colors, Numbers, Letters' - Control Flow, If Statements, Switch Statements",
+    "lessonID" : "SF03"
+  },
+  {
+    "fileName" : "'Introduction Printer, Letter Counter, Number Adder' -  String Interpolation, Basic Functions",
+    "lessonID" : "SF04"
+  },
+  {
+    "fileName" : "'Area of a Circle' - Basic functions, Doubles",
+    "lessonID" : "SF05"
+  },
+  {
+    "fileName" : "'Rectangle Calculators' - Structs, Mutating Functions",
+    "lessonID" : "SF06"
+  },
+  {
+    "fileName" : "'Persons and Students' - Classes & Subclasses, Inheritance, Memberwise Initializers",
+    "lessonID" : "SF07"
+  },
+  {
+    "fileName" : "'Person Behaviors' - Structs, Mutating Functions, Identifiable",
+    "lessonID" : "SF08"
+  },
+  {
+    "fileName" : "'Distance Between Points' - Basic Functions, Doubles, Global Functions ",
+    "lessonID" : "SF09"
+  },
+  {
+    "fileName" : "'Converting Time Units' - Basic Functions",
+    "lessonID" : "SF10"
+  },
+  {
+    "fileName" : "'Nth Even Number' - Code Puzzle",
+    "lessonID" : "SF11"
+  },
+  {
+    "fileName" : "'Grade Calculator' - Switch Statements, Ranges",
+    "lessonID" : "SF12"
+  },
+  {
+    "fileName" : "'What Century is the Year?' - Rounding Integers, Doubles, Basic Functions",
+    "lessonID" : "SF13"
+  },
+  {
+    "fileName" : "'Formatting Currency' - String Formatting",
+    "lessonID" : "SF14"
+  },
+  {
+    "fileName" : "'Heron's Formula' - Math, String Formatting",
+    "lessonID" : "SF15"
+  },
+  {
+    "fileName" : "'Manual Collection' - Intro to Arrays",
+    "lessonID" : "SF16"
+  },
+  {
+    "fileName" : "'Difference in Cube Volumes' - Arrays, Single Responsibility Principle, Abstraction",
+    "lessonID" : "SF17"
+  },
+  {
+    "fileName" : "'Subset of an Array' - Arrays, Ranges",
+    "lessonID" : "SF18"
+  },
+  {
+    "fileName" : "'Multiply Each Int in [Int] By Five' - Arrays, For Loops",
+    "lessonID" : "SF19"
+  },
+  {
+    "fileName" : "'Evens and Odds' - Arrays, For Loops, Modulo",
+    "lessonID" : "SF20"
+  },
+  {
+    "fileName" : "'Complete the Square' - Arrays, For Loops",
+    "lessonID" : "SF21"
+  },
+  {
+    "fileName" : "'Sum of Positives' - Arrays, For Loops, Map Method",
+    "lessonID" : "SF22"
+  },
+  {
+    "fileName" : "'Fake Binary' - Type Casting, Strings and Arrays, Ranges, For Loops",
+    "lessonID" : "SF23"
+  },
+  {
+    "fileName" : "'Alternating 1s and 0s' - For Loops, Ranges, Modulo",
+    "lessonID" : "SF24"
+  },
+  {
+    "fileName" : "'Find Non Consecutive Elements' - Arrays, For Loops, Index Subscripting",
+    "lessonID" : "SF25"
+  },
+  {
+    "fileName" : "'Sum of a Range' - Recursion",
+    "lessonID" : "SF27"
+  },
+  {
+    "fileName" : "'Find a Value in an Array' - For Loops, Generics",
+    "lessonID" : "SF28"
+  },
+  {
+    "fileName" : "'Wolves and Sheep' - If\/Else Statements, For Loops, Index",
+    "lessonID" : "SF29"
+  },
+  {
+    "fileName" : "'Averaging Scores' - Simple Math",
+    "lessonID" : "SF30"
+  },
+  {
+    "fileName" : "'Times Tables' - For Loops, Ranges, String Line Break",
+    "lessonID" : "SF31"
+  },
+  {
+    "fileName" : "'Target Practice' - Nested For Loops",
+    "lessonID" : "SF34"
+  },
+  {
+    "fileName" : "'Bubble Sort' - Sorting Algorithms, Time Complexity",
+    "lessonID" : "SF35"
+  },
+  {
+    "fileName" : "'Insertion Sort' - Sorting Algorithms",
+    "lessonID" : "SF36"
+  },
+  {
+    "fileName" : "'Selection Sort' - Sorting Algorithms",
+    "lessonID" : "SF37"
+  },
+  {
+    "fileName" : "'Merge Sort & Sorting Summary' - Sorting Algorithms",
+    "lessonID" : "SF38"
+  },
+  {
+    "fileName" : "'Reverse Alphabetical' - Array Methods",
+    "lessonID" : "TP01"
+  },
+  {
+    "fileName" : "'Compare Arrays' - Array Methods",
+    "lessonID" : "TP02"
+  },
+  {
+    "fileName" : "'Validating Phone Numbers' - Throwing Functions, String Validation",
+    "lessonID" : "TP03"
+  },
+  {
+    "fileName" : "'Word Frequency' - Strings as Collections, Dictionaries",
+    "lessonID" : "TP04"
+  },
+  {
+    "fileName" : "'Sentence Counting' - Strings as Collections",
+    "lessonID" : "TP05"
+  },
+  {
+    "fileName" : "'Date Formatting' - Date Formatting, String Validation",
+    "lessonID" : "TP06"
+  },
+  {
+    "fileName" : "'Letter Counter' - Characters & Strings, String Functions",
+    "lessonID" : "TP07"
+  },
+  {
+    "fileName" : "'Print Plurals' - Data Analysis",
+    "lessonID" : "TP08"
+  },
+  {
+    "fileName" : "'Ball Clock' - String Interpolation, Abstract Math",
+    "lessonID" : "TP09"
+  },
+  {
+    "fileName" : "'Palindromes' - String Methods, Extensions",
+    "lessonID" : "TP10"
+  },
+  {
+    "fileName" : "'Factorials!' - Recursion, Math",
+    "lessonID" : "TP11"
+  },
+  {
+    "fileName" : "'Sum by Sign' - Arrays, For Loops",
+    "lessonID" : "TP12"
+  },
+  {
+    "fileName" : "'Finding Primes' - Math Puzzles",
+    "lessonID" : "TP13"
+  },
+  {
+    "fileName" : "'Wilson Primes' - Math Puzzles",
+    "lessonID" : "TP14"
+  },
+  {
+    "fileName" : "'Removing Spaces' - String Manipulation",
+    "lessonID" : "TP15"
+  },
+  {
+    "fileName" : "'Am I Better' - Evaluating Data",
+    "lessonID" : "TP16"
+  },
+  {
+    "fileName" : "'Multiples to the Limit' - Math Puzzles",
+    "lessonID" : "TP17"
+  },
+  {
+    "fileName" : "'Index N to the Nth Power' - Math, Arrays",
+    "lessonID" : "TP18"
+  },
+  {
+    "fileName" : "'Alphabet Indexer' - Ordered Data",
+    "lessonID" : "TP19"
+  },
+  {
+    "fileName" : "'Sum Without Extremes' - Data Evaluation",
+    "lessonID" : "TP20"
+  },
+  {
+    "fileName" : "'Will It Divide' - Math Puzzles",
+    "lessonID" : "TP21"
+  },
+  {
+    "fileName" : "'Capitalization Helper' - Extensions",
+    "lessonID" : "TP22"
+  },
+  {
+    "fileName" : "'Powers of Two' - Math Puzzles",
+    "lessonID" : "TP23"
+  },
+  {
+    "fileName" : "'Rock Paper Scissors' - Control Flow",
+    "lessonID" : "TP24"
+  },
+  {
+    "fileName" : "'Rock Paper Scissors 2.0' - RNG",
+    "lessonID" : "TP25"
+  },
+  {
+    "fileName" : "'Can You Digit' - Regular Expressions",
+    "lessonID" : "TP26"
+  },
+  {
+    "fileName" : "'In the Ballpark' - Math",
+    "lessonID" : "TP27"
+  },
+  {
+    "fileName" : "'Telephone Pole Calculator' - Geometry",
+    "lessonID" : "TP28"
+  },
+  {
+    "fileName" : "'Sums in Strings' - Data in Strings",
+    "lessonID" : "ND01"
+  },
+  {
+    "fileName" : "'The Monk and the Stairs' - Interpreting Data",
+    "lessonID" : "ND02"
+  },
+  {
+    "fileName" : "'Is It Uppercase?' - String Methods",
+    "lessonID" : "ND03"
+  },
+  {
+    "fileName" : "'Binary to Decimal' - Type Conversion",
+    "lessonID" : "ND04"
+  },
+  {
+    "fileName" : "'Name Swap' - Manipulating Strings",
+    "lessonID" : "ND05"
+  },
+  {
+    "fileName" : "'String-Longer' - Manipulating Strings",
+    "lessonID" : "ND06"
+  },
+  {
+    "fileName" : "'Difference Sums' - Arrays",
+    "lessonID" : "ND07"
+  },
+  {
+    "fileName" : "'Between Two Ints' - For Loops",
+    "lessonID" : "ND08"
+  },
+  {
+    "fileName" : "'OCR Clean-up' - String Manipulation",
+    "lessonID" : "ND09"
+  },
+  {
+    "fileName" : "'Human, Cat, Dog Years' - Control Flow",
+    "lessonID" : "ND10"
+  },
+  {
+    "fileName" : "'Case Comparison' - Characters, Extensions",
+    "lessonID" : "ND11"
+  },
+  {
+    "fileName" : "'ShortLongShort' - Concatenation",
+    "lessonID" : "ND12"
+  },
+  {
+    "fileName" : "'Point Reflection' - Geometry",
+    "lessonID" : "ND13"
+  },
+  {
+    "fileName" : "'Is It Today?' - Dates",
+    "lessonID" : "ND14"
+  },
+  {
+    "fileName" : "'Goose Removal' - Array Manipulation",
+    "lessonID" : "ND15"
+  },
+  {
+    "fileName" : "'Punctuation Removal' - Strings",
+    "lessonID" : "ND16"
+  },
+  {
+    "fileName" : "'Chickens, Cows, Heads, Legs' - Math Puzzle",
+    "lessonID" : "ND17"
+  },
+  {
+    "fileName" : "'Area Perimeter' - Geometry",
+    "lessonID" : "ND18"
+  },
+  {
+    "fileName" : "'ASCII Vowel Values' - ASCII Characters",
+    "lessonID" : "ND19"
+  },
+  {
+    "fileName" : "'Sum the Smallest' - Array Manipulation",
+    "lessonID" : "ND20"
+  },
+  {
+    "fileName" : "'Skills List' - Reflection",
+    "lessonID" : "ND21"
+  },
+  {
+    "fileName" : "'Profile Page' - SwiftUI",
+    "lessonID" : "ST02"
+  },
+  {
+    "fileName" : "'Microtransactions' - SwiftUI",
+    "lessonID" : "ST04"
+  },
+  {
+    "fileName" : "'Product of Everything Else' - Math, Arrays",
+    "lessonID" : "ST06"
+  },
+  {
+    "fileName" : "'Navigate Swiftly' - SwiftUI Navigation",
+    "lessonID" : "ST08"
+  },
+  {
+    "fileName" : "'Tally App' - SwiftUI, Conditional Layouts",
+    "lessonID" : "ST10"
+  },
+  {
+    "fileName" : "'Card View' - SwiftUI, Overlays, Extensions",
+    "lessonID" : "ST12"
+  },
+  {
+    "fileName" : "'SF Symbol Lookup' - SwiftUI, SFSymbols, State",
+    "lessonID" : "ST14"
+  },
+  {
+    "fileName" : "'Bowling for TDD' - Test Driven Development, Refactoring",
+    "lessonID" : "ST16"
+  },
+  {
+    "fileName" : "'Special Topics Unit Review' - SwiftUI, TDD, CoreData",
+    "lessonID" : "ST20"
+  },
+  {
+    "fileName" : "'camelCase & snake_case' - Strings as Collections, While Loops",
+    "lessonID" : "FA03"
+  },
+  {
+    "fileName" : "'String Chopper' - Strings as Collections, Indexes",
+    "lessonID" : "FA05"
+  },
+  {
+    "fileName" : "'Fibonacci Sequence' - Arrays, For Loops, Math",
+    "lessonID" : "FA08"
+  },
+  {
+    "fileName" : "'Least Common Multiple' - Math",
+    "lessonID" : "FA10"
+  },
+  {
+    "fileName" : "'Roaming Robot' - Structs, Enums, Geometry",
+    "lessonID" : "FA12"
+  },
+  {
+    "fileName" : "'Measuring Water' - Logic Puzzles, Interview Skills",
+    "lessonID" : "FA14"
+  },
+  {
+    "fileName" : "'Linked Lists' - Data Structures",
+    "lessonID" : "FA15"
+  },
+  {
+    "fileName" : "'Queue with Linked Lists' - Data Structures",
+    "lessonID" : "FA16"
+  },
+  {
+    "fileName" : "'Spinning Disc' - Interview Skills, Logic Puzzles",
+    "lessonID" : "FA17"
+  },
+  {
+    "fileName" : "'App Showcase Review' - App Design Planning",
+    "lessonID" : "PC01"
+  },
+  {
+    "fileName" : "'Spot Check' - Array Logic",
+    "lessonID" : "PC05"
+  },
+  {
+    "fileName" : "'Adding Time' - Working with Dates",
+    "lessonID" : "PC07"
+  },
+  {
+    "fileName" : "'Folder Cleanup' - Custom Sorting",
+    "lessonID" : "PC09"
+  },
+  {
+    "fileName" : "'Additive Persistence' - Math Puzzles",
+    "lessonID" : "PC11"
+  },
+  {
+    "fileName" : "'Hashtag Generator' - String Manipulation, Interpolation",
+    "lessonID" : "PC13"
+  },
+  {
+    "fileName" : "'Simplifying Fractions' - Representing Numbers",
+    "lessonID" : "PC15"
+  },
+  {
+    "fileName" : "'Cup Swapping' - Programmatic Instructions",
+    "lessonID" : "PC17"
+  },
+  {
+    "fileName" : "'Ice Cream Sandwich Police' - String Evaluation",
+    "lessonID" : "PC19"
+  },
+  {
+    "fileName" : "'Collatz' - Simple Math Puzzles",
+    "lessonID" : "PC20"
+  },
+  {
+    "fileName" : "'Sailboat Height' - Math",
+    "lessonID" : "PC22"
+  },
+  {
+    "fileName" : "'Numbers of Numbers' - Unintuitive Logic",
+    "lessonID" : "PC24"
+  },
+  {
+    "fileName" : "'Roaming Robot 2 - Judgment Day' - Geometry",
+    "lessonID" : "PC26"
+  },
+  {
+    "fileName" : "'Closest Palindrome' - Evaluating Numbers",
+    "lessonID" : "GC01"
+  },
+  {
+    "fileName" : "'Simple Cipher' - Beginner Cryptography",
+    "lessonID" : "GC04"
+  },
+  {
+    "fileName" : "'Game Inventory' - Managing Datasets",
+    "lessonID" : "GC06"
+  },
+  {
+    "fileName" : "'Process Reflection' - Soft Skills",
+    "lessonID" : "GC08"
+  },
+  {
+    "fileName" : "'Pig Latin' - Strings",
+    "lessonID" : "GC10"
+  },
+  {
+    "fileName" : "'#Bridges' - Evaluating Data",
+    "lessonID" : "GC12"
+  },
+  {
+    "fileName" : "'Schoty' - Type Conversion",
+    "lessonID" : "GC14"
+  },
+  {
+    "fileName" : "'Needle in a Haystack, Part 1' - Type Conversion",
+    "lessonID" : "GC16"
+  },
+  {
+    "fileName" : "'Needle in a Haystack, Part 2' - Type Conversion",
+    "lessonID" : "GC18"
+  },
+  {
+    "fileName" : "'Roman Numerals' - Type Conversion",
+    "lessonID" : "GC20"
+  },
+  {
+    "fileName" : "'Sudoku Validator' - Math Puzzles",
+    "lessonID" : "GC22"
+  },
+  {
+    "fileName" : "'Triangle Numbers' - Math Puzzles",
+    "lessonID" : "GC24"
+  },
+  {
+    "fileName" : "'Final Challenge Jam' - Everything",
+    "lessonID" : "GC26"
+  }
+]

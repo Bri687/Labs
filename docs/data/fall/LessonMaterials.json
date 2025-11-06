@@ -1,0 +1,140 @@
+[
+  {
+    "associatedLessonID" : "ND09",
+    "ext" : "key",
+    "id" : "37F0DCCE-61D6-4D09-9A7C-10576B1A60E9",
+    "name" : "1-SwiftData vs CoreData"
+  },
+  {
+    "associatedLessonID" : "ND10",
+    "ext" : "key",
+    "id" : "B6436E77-93AE-406F-94D8-22CFD2D281E1",
+    "name" : "2-SwiftData Basics"
+  },
+  {
+    "associatedLessonID" : "ND11",
+    "ext" : "key",
+    "id" : "D4F8E9D8-CECC-4165-B082-E1BD1A679265",
+    "name" : "3-SwiftData Relationships + misc"
+  },
+  {
+    "associatedLessonID" : "GC02",
+    "ext" : "key",
+    "id" : "5CFE60FA-026B-47AD-A4BE-82B2B691F016",
+    "name" : "Agile and Scrum"
+  },
+  {
+    "associatedLessonID" : "GC01",
+    "ext" : "key",
+    "id" : "BAB66F25-6F83-4EF4-8A01-D1CF3CC779B4",
+    "name" : "Collaborating with git and GitHub"
+  },
+  {
+    "associatedLessonID" : "FA05",
+    "ext" : "key",
+    "id" : "C0C4ECB5-A851-46E8-A696-43407F7C0C3A",
+    "name" : "Fishing for Frameworks"
+  },
+  {
+    "associatedLessonID" : "ST17",
+    "ext" : "zip",
+    "id" : "DC4EEF93-F60A-41BB-9BE9-1F15AA3D767F",
+    "name" : "Integrating UIKit Sample Project"
+  },
+  {
+    "associatedLessonID" : "SF31",
+    "ext" : "key",
+    "id" : "F9E68D80-61B3-40B3-842F-D12A0840CC90",
+    "name" : "Introduction to SwiftUI"
+  },
+  {
+    "associatedLessonID" : "PC04",
+    "ext" : "key",
+    "id" : "4CCF9521-F765-47A0-9730-31161DC9775C",
+    "name" : "iOS Software Release Cycle"
+  },
+  {
+    "associatedLessonID" : "ST20",
+    "ext" : "key",
+    "id" : "C0940877-622A-44AE-BCC4-667D6D2D397A",
+    "name" : "Module 5- Advanced Unit Testing"
+  },
+  {
+    "associatedLessonID" : "ST02",
+    "ext" : "key",
+    "id" : "EC9F60F2-91DA-4686-AE90-9E548B5A2DE4",
+    "name" : "SwiftUI - Advanced Layouts with Grids and LazyGrids"
+  },
+  {
+    "associatedLessonID" : "ND13",
+    "ext" : "key",
+    "id" : "B4D9DB66-2634-49B2-A368-EA5A2A21A514",
+    "name" : "SwiftUI - Advanced Navigation"
+  },
+  {
+    "associatedLessonID" : "ST05",
+    "ext" : "key",
+    "id" : "88364631-795B-4B87-8052-115E7ACE1D5D",
+    "name" : "SwiftUI - Advanced SwiftUI Techniques"
+  },
+  {
+    "associatedLessonID" : "ND15",
+    "ext" : "key",
+    "id" : "5042A565-9D41-418B-8F2A-05F3FE90F8F7",
+    "name" : "SwiftUI - Animations"
+  },
+  {
+    "associatedLessonID" : "TP08",
+    "ext" : "key",
+    "id" : "D3A5EF5D-C2EF-4A0D-82B2-1C997945661E",
+    "name" : "SwiftUI - Architecture"
+  },
+  {
+    "associatedLessonID" : "SF34",
+    "ext" : "key",
+    "id" : "0B93A471-60C9-4165-8E19-5543D9548C1C",
+    "name" : "SwiftUI - Dealing with Data"
+  },
+  {
+    "associatedLessonID" : "ST01",
+    "ext" : "key",
+    "id" : "DF0D9BA5-358C-4F70-A57B-409EAA967865",
+    "name" : "SwiftUI - GeometryReader"
+  },
+  {
+    "associatedLessonID" : "ST17",
+    "ext" : "key",
+    "id" : "FA29A8F4-9A23-4E14-B742-5BE38AF4154B",
+    "name" : "SwiftUI - Integrating UIKit"
+  },
+  {
+    "associatedLessonID" : "TP03",
+    "ext" : "key",
+    "id" : "F6FBD044-1F2E-4607-9BD3-AA863C0F97D5",
+    "name" : "SwiftUI - Navigation"
+  },
+  {
+    "associatedLessonID" : "TP02",
+    "ext" : "key",
+    "id" : "2A3788DC-F6BB-49C8-8BC6-4172254F5B3C",
+    "name" : "SwiftUI - Subviews"
+  },
+  {
+    "associatedLessonID" : "ST19",
+    "ext" : "key",
+    "id" : "A709CDD9-AF0A-49BA-9F8E-12574D1D6073",
+    "name" : "TDD - Fakes, Mocks, and Stubs"
+  },
+  {
+    "associatedLessonID" : "ST18",
+    "ext" : "key",
+    "id" : "8E7DB94D-1A96-4E26-AB2F-D5118E54B5B1",
+    "name" : "TDD - What is TDD, Red-Green-Refactor"
+  },
+  {
+    "associatedLessonID" : "ST09",
+    "ext" : "zip",
+    "id" : "C719B4EC-00E3-457A-8759-320D0E013D01",
+    "name" : "Trip Logger Starter Project"
+  }
+]

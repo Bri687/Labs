@@ -1,0 +1,5025 @@
+[
+  {
+    "additionalResources" : "",
+    "id" : "A415DD00-487A-4B39-88BC-E4279974579A",
+    "lessonBody" : "- Start downloading Xcode right away. It takes forever!\n- Program Coordinator introduces themselves, get to know students, cover the policies for the course\n- Key takeaways:\n  - Must keep 85% attendance\n  - Cannot be more than 15 minutes late or leave more than 15 minutes early\n  - Class is pass\/fail\n  - Must get 100% on every assignment\n- Introduce day to day outline, [course calendar](https:\/\/docs.google.com\/spreadsheets\/d\/1jlbRERSeyHYdPE8CMMnZyszqWFrQNqM3\/edit?usp=sharing&ouid=106318290776846623764&rtpof=true&sd=true), and Canvas\n- Typical Schedule:\n  - 7:30AM - 8:00AM : Code Challenge\/Attendance Exercise\n  - 8:00AM - 8:45AM : Lecture\n  - 8:45AM - 9:30AM : Instructor Walk Through\n  - 9:30AM - 10:30AM : Student Exercises\/Labs - Check off Labs with Instructor\n\nAfter introduction:\n\n",
+    "lessonID" : "SF01",
+    "lessonName" : "Course Orientation",
+    "mainObjective" : "navigate course materials.\nuse Xcode.",
+    "objectives" : [
+
+    ],
+    "readingDue" : "Watch 'Swift - A Brief History', Read Swift Fundamentals 1.2",
+    "schedule" : [
+      {
+        "endTime" : {
+          "hour" : 7,
+          "minute" : 45
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 30
+        },
+        "task" : "Start Xcode downloads and give students their macs"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 45
+        },
+        "task" : "Introductions, course expectations"
+      },
+      {
+        "endTime" : {
+          "hour" : 9,
+          "minute" : 15
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 30
+        },
+        "task" : "First Lesson - Introduction to Swift and Playgrounds"
+      },
+      {
+        "endTime" : {
+          "hour" : 10,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 9,
+          "minute" : 15
+        },
+        "task" : "Second Lesson - Constants, Variables, and Data Types"
+      }
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "9748A951-BE8D-4727-BACB-B76B6DF79D86",
+    "lessonBody" : "- Introduce the books and the first lesson\n- Go through the first lesson with the students _Lesson 1.2 Introduction to Swift and Playgrounds_\n  - Complete the exercise and lab in the book with the students. Show students how to turn in the lab to canvas.\n- Teach the second lesson _Lesson 1.3 Constants, Variables, and Data Types_\nShow students how to submit assignments",
+    "lessonID" : "SF02",
+    "lessonName" : "Constants, Variables, and Basic Types",
+    "mainObjective" : "define and use variables and constants.",
+    "objectives" : [
+
+    ],
+    "readingDue" : "Read Swift Fundamentals 1.2",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "- Old lesson on [Mathematic Operators.](https:\/\/github.com\/joybob22\/Mtech-Lessons\/blob\/main\/Unit%201\/3%20-%20Operators.md)\n- Old lesson on [Control Flow](https:\/\/github.com\/joybob22\/Mtech-Lessons\/blob\/main\/Unit%201\/4%20-%20Control%20Flow.md)",
+    "id" : "A4FB18A2-0FD4-4462-B4FA-9931E2C1F92C",
+    "lessonBody" : "- Cover _Swift Fundamentals 1.4 - Operators_ and _Swift Fundamentals 1.5 - Control Flow_\n\nSuggested Activities:\n- The slideshow does not cover modulo (%), so make sure to go over it with students.\n- Instructor writes several if-else and switch statements based on random real world scenarios (e.g. \"If hunger > 5, cook meal; else, have snack\"); convert an if statement into a switch statement and vice versa; then, have students work in pairs to generate examples of their own.",
+    "lessonID" : "SF03",
+    "lessonName" : "Operators and Control Flow",
+    "mainObjective" : "use mathematical operators, comparison operators, and logical operators.\ncontrol application flow.",
+    "objectives" : [
+      "I can use `==`, `>=`, `<=`, `>`, `<`, and `!=` to compare two values and understand the purpose of doing so",
+      "I can use an `if` statement to control the flow of my code",
+      "I can use a `switch` statement to control the flow of my code",
+      "I can perform basic mathematical operations on numeric variables, such as `+`, `-`, `*`, `\/`, and `%`",
+      "I can use ternary operators (`? :`) to condense simple if statements"
+    ],
+    "readingDue" : "Read Swift Fundamentals 1.4, 1.5",
+    "schedule" : [
+      {
+        "endTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 30
+        },
+        "task" : "Code Challenge"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "task" : "Code Challenge Solution"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "task" : "Lecture"
+      },
+      {
+        "endTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "task" : "Code Examples"
+      },
+      {
+        "endTime" : {
+          "hour" : 10,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "task" : "Complete Labs"
+      }
+    ]
+  },
+  {
+    "additionalResources" : "- Old lesson on [Strings](https:\/\/github.com\/joybob22\/Mtech-Lessons\/blob\/Unit-2\/Unit%202\/1%20-%20Strings.md)\n- Old lesson on [Functions](https:\/\/github.com\/joybob22\/Mtech-Lessons\/blob\/Unit-2\/Unit%202\/2%20-%20Functions.md)",
+    "id" : "28168299-2130-44C1-98B8-A60B7B7040AA",
+    "lessonBody" : "- Cover _Swift Fundamentals 2.2 - Strings_\n\nSuggested Activities:\n- Review what a Type is and what the difference is between a variable's type and its value is\n",
+    "lessonID" : "SF04",
+    "lessonName" : "Strings",
+    "mainObjective" : "use Swift Strings, including creating, comparing, combining, and manipulating them.",
+    "objectives" : [
+      "I can create `String` variables",
+      "I can use string interpolation to add data into a `String`.",
+      "I can compare two strings to see if they are identical using `==` or `!=`",
+      "I can identify what a function is and what it does",
+      "I can create a function that takes input parameters and returns a value",
+      "I can use the `String` type's methods to do things like create a lowercased version of a string, check the presence of a prefix or suffix in a string, or get the count of characters in a string.",
+      "I can describe what Unicode is and state that Strings can contain any unicode character (including symbols and 😃 emoji)"
+    ],
+    "readingDue" : "Swift Fundamentals 2.2",
+    "schedule" : [
+      {
+        "endTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 30
+        },
+        "task" : "Code Challenge"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "task" : "Code Challenge Solution"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "task" : "Lecture"
+      },
+      {
+        "endTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "task" : "Code Examples"
+      },
+      {
+        "endTime" : {
+          "hour" : 10,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "task" : "Complete Labs"
+      }
+    ]
+  },
+  {
+    "additionalResources" : "- Old review of [Functions](https:\/\/github.com\/joybob22\/Mtech-Lessons\/blob\/Unit-2\/Unit%202\/2%20-%20Functions.md)",
+    "id" : "142BF4B6-A9E1-4015-8B1F-AA7C4D5B8569",
+    "lessonBody" : "- Cover _Swift Fundamentals 2.2 - Strings_ and _Swift Fundamentals 2.3 - Functions_\n\nSuggested Activities:\n- Have students work in groups to practice writing function signatures following each of these rules, with a name that is reasonable for that type of function:\n  - Write a function that takes no parameters and returns nothing.\n  - Write a function that takes one parameter and returns nothing.\n  - Write a function that takes no parameters and returns a value.\n  - Write a function that takes one parameter and returns a value.\n  - Write a function that takes two parameters and returns a value.\n  - Write a function that takes three parameters and returns nothing.\n  - If finished, write additional functions that go beyond these requirements.",
+    "lessonID" : "SF05",
+    "lessonName" : "Functions",
+    "mainObjective" : "build Swift functions that take multiple named arguments, include default values, and return or don't return an object.",
+    "objectives" : [
+      "I can identify what a function is and what they do.",
+      "I can create a function that takes input parameters and returns a value.",
+      "I can use internal and external parameter labels, as well as omitted `_` argument labels.",
+      "I can give parameters a default value.",
+      "I can state what a function signature is."
+    ],
+    "readingDue" : "Swift Fundamentals 2.3",
+    "schedule" : [
+      {
+        "endTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 30
+        },
+        "task" : "Code Challenge"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "task" : "Code Challenge Solution"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "task" : "Lecture"
+      },
+      {
+        "endTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "task" : "Code Examples"
+      },
+      {
+        "endTime" : {
+          "hour" : 10,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "task" : "Complete Labs"
+      }
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "180E5F0C-3656-4C51-9427-5B5DAE6D6E37",
+    "lessonBody" : "Cover [Git Overview & Git Init.key](openany:\/\/file\/open?path=~\/Developer\/iOS%20Development\/1%20-%20Swift%20Fundamentals\/Materials\/Git%20Overview%20&%20Git%20Init.key)\n\nToday we will be getting a brief introduction to Git, a version control system. We will continue to learn more about git over the coming weeks as we practice how to use its various controls.\n\nFor the lab today, students will just be taking notes on Git and submitting them.",
+    "lessonID" : "SF06",
+    "lessonName" : "Git Overview & Git Init",
+    "mainObjective" : "identify the purpose and necessity of version control systems like Git.\ncreate Git repositories, commits, and branches from the command line.",
+    "objectives" : [
+
+    ],
+    "readingDue" : "Read \"About Git\" by GitHub",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "1580F3F0-C2F2-409E-B5F4-FB98EDAFAB83",
+    "lessonBody" : "Review the topics covered so far as needed; students then have time to work on Project #1.",
+    "lessonID" : "SF07",
+    "lessonName" : "Review, Introduce Project 1: Mad Lib Story Generator",
+    "mainObjective" : "review Swift skills learned so far.\ndemonstrate knowledge of skills by building first project.",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "0BFA7301-774F-484E-871D-0B7B44A4407B",
+    "lessonBody" : "",
+    "lessonID" : "SF08",
+    "lessonName" : "Work on Project: Mad Lib Story Generator",
+    "mainObjective" : "demonstrate knowledge of skills by building first project.",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "- Old review of [Structs](https:\/\/github.com\/joybob22\/Mtech-Lessons\/blob\/Unit-2\/Unit%202\/3%20-%20Structures.md)",
+    "id" : "ED9DBC0D-8D6D-4D4F-ABCD-692C4BDB5942",
+    "lessonBody" : "- Cover _Swift Fundamentals 2.4 - Structures_\n\nSuggested Activities\n- Ask students to generate a list of examples of data that might need to be stored and retrieved in an app. Have them look through their own installed apps and think about what kinds of structs might be used there.\n- Guide students through building structs for String\/Int\/Double\/etc to connect them to the idea that these types are structs and that they can build their own\n- Show students structs from a real project\n",
+    "lessonID" : "SF09",
+    "lessonName" : "Structs",
+    "mainObjective" : "create a fully featured Struct with properties, initializers, and methods, and explain its role in Swift development.",
+    "objectives" : [
+      "I am able to describe the basic purpose of Structs and Classes.",
+      "I am able to describe what a reference type is.",
+      "I am able to describe what a value type is.",
+      "I am able to create a custom class with properties, initializers, and methods",
+      "I am able to use inheritance to create subclasses."
+    ],
+    "readingDue" : "Swift Fundamentals 2.4",
+    "schedule" : [
+      {
+        "endTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 30
+        },
+        "task" : "Code Challenge"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "task" : "Code Challenge Solution"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "task" : "Lecture"
+      },
+      {
+        "endTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "task" : "Code Examples"
+      },
+      {
+        "endTime" : {
+          "hour" : 10,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "task" : "Complete Labs"
+      }
+    ]
+  },
+  {
+    "additionalResources" : "- Old lesson on [Classes](https:\/\/github.com\/joybob22\/Mtech-Lessons\/blob\/Unit-2\/Unit%202\/4%20-%20Classes%20and%20Inheritance.md)",
+    "id" : "6BED3E28-6B53-4983-B18C-8216574AD50B",
+    "lessonBody" : "- Cover _Swift Fundamentals 2.5 - Classes and Inheritance_.\n\nSuggested Activities:\n- Show students some of the classes used in a real project of yours\n- Have students create a venn diagram showing the similarities and differences between structs and classes. They can then use it as part of their presentations.\n",
+    "lessonID" : "SF10",
+    "lessonName" : "Classes, Inheritance",
+    "mainObjective" : "describe the difference between a Struct and a Class.\ncreate a fully featured Class with properties, initializers, and methods, as well as superclass inheritance.",
+    "objectives" : [
+
+    ],
+    "readingDue" : "Swift Fundamentals 2.5",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "- Old review on [Structs](https:\/\/github.com\/joybob22\/Mtech-Lessons\/blob\/Unit-2\/Unit%202\/3%20-%20Structures.md)\n- Old review on [Classes](https:\/\/github.com\/joybob22\/Mtech-Lessons\/blob\/Unit-2\/Unit%202\/4%20-%20Classes%20and%20Inheritance.md)",
+    "id" : "5382BF21-8EEB-44E4-9472-69FCB4DCCC13",
+    "lessonBody" : "- Run through list of objectives from SF04 and SF05 about Structs and Classes\n  - Ask students which objectives they need help with\n  - Use concrete examples in code\n  - Point students back to chapters in textbook on Structs and Classes\n\n- Make sure students have plenty of time to finish their labs; review should be brief.\n",
+    "lessonID" : "SF11",
+    "lessonName" : "Review Structs and Classes",
+    "mainObjective" : "describe the difference between a Struct and a Class.\ncreate a fully featured Class with properties, initializers, and methods, as well as superclass inheritance.",
+    "objectives" : [
+      "Review structs and classes, ensuring we have accomplished all objectives from the last two lessons"
+    ],
+    "readingDue" : "Swift Fundamentals 2.6",
+    "schedule" : [
+      {
+        "endTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 30
+        },
+        "task" : "Code Challenge"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "task" : "Code Challenge Solution"
+      },
+      {
+        "endTime" : {
+          "hour" : 9,
+          "minute" : 0
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "task" : "Code Examples"
+      },
+      {
+        "endTime" : {
+          "hour" : 10,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 9,
+          "minute" : 0
+        },
+        "task" : "Complete Labs"
+      }
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "A47FCD41-B0C9-444B-935D-D84EC242AD03",
+    "lessonBody" : "- If needed, review Structs and Classes; consider using an activity from the [review activity keynote.](https:\/\/github.com\/MTechMobileDevelopment\/Mobile-Development-Lesson-Plans\/blob\/master\/Review%20Activities\/Review%20Activities.key)\n- Students will create a presentation explaining Structs and Classes.",
+    "lessonID" : "SF12",
+    "lessonName" : "Structs and Classes Presentations",
+    "mainObjective" : "identify appropriate uses for structs and classes and implement them in code",
+    "objectives" : [
+      "I am able to describe the basic purpose of Structs and Classes.",
+      "I am able to describe what a reference type is.",
+      "I am able to describe what a value type is.",
+      "I am able to create a custom class with properties, initializers, and methods",
+      "I am able to use inheritance to create subclasses."
+    ],
+    "readingDue" : "Swift Fundamentals 2.7",
+    "schedule" : [
+      {
+        "endTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 30
+        },
+        "task" : "Code Challenge"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "task" : "Code Challenge Solution"
+      },
+      {
+        "endTime" : {
+          "hour" : 9,
+          "minute" : 15
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "task" : "Presentation Prep"
+      },
+      {
+        "endTime" : {
+          "hour" : 10,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 9,
+          "minute" : 15
+        },
+        "task" : "Presentations"
+      }
+    ]
+  },
+  {
+    "additionalResources" : "- Old lesson on [Building, Running, Debugging an App](https:\/\/github.com\/joybob22\/Mtech-Lessons\/blob\/main\/Unit%201\/5%2C6%20-%20XCode%20and%20Debugging.md)\n- Old lesson on [Documentation](https:\/\/github.com\/joybob22\/Mtech-Lessons\/blob\/main\/Unit%201\/7%20-%20Documentation.md)\n",
+    "id" : "0DACD416-FF6D-46FD-9832-C410D0013D43",
+    "lessonBody" : "- Cover _Swift Fundamentals 1.6 - Xcode_, _1.7 - Building, Running, and Debugging an App_\n- Cover _Swift Fundamentals  1.8 - Documentation_\n- Introduce _Swift Fundamentals 3.5 - Constant and Variable Scope_\n\nThe lab for the Scope lesson dives into optionals and type casting, so we'll hold off on the lab and instead introduce the concept today.\n\nSuggested Activities:\n- Quiz students on the most important terms of this chapter, such as the ones listed in the objectives above.",
+    "lessonID" : "SF13",
+    "lessonName" : "Xcode and Debugging, Documentation, Introduce Scope",
+    "mainObjective" : "describe what an IDE is\nuse Xcode's interface to begin building a project\nread documentation\ndescribe and utilize scope",
+    "objectives" : [
+      "I am able to use the Project Navigator in an Xcode project to find files",
+      "I am able to switch between the Project Navigator and the other Navigators in the Navigator area.",
+      "I am able to locate and use the Editor Area in an Xcode project.",
+      "I am able to locate the Debug Area, and the Console pane and Variables pane inside it",
+      "I am able to locate the Inspector area",
+      "I am able to run an Xcode Project in Simulator.",
+      "I am able to build a project, and define what it means to build a project.",
+      "When build errors and warnings appear, I am able to locate them, view them, and, if Xcode suggests a fix, accept that suggestion.",
+      "I am able to use breakpoints in my code and describe their purpose.",
+      "I am able to access and navigate Xcode's Documentation."
+    ],
+    "readingDue" : "Swift Fundamentals 1.6, 1.7, 1.8",
+    "schedule" : [
+      {
+        "endTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 30
+        },
+        "task" : "Code Challenge"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "task" : "Code Challenge Solution"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "task" : "Lecture"
+      },
+      {
+        "endTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "task" : "Code Examples"
+      },
+      {
+        "endTime" : {
+          "hour" : 10,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "task" : "Complete Labs"
+      }
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "8B0F81C0-E896-4544-9BD9-90BF8AF1C8A0",
+    "lessonBody" : "",
+    "lessonID" : "SF14",
+    "lessonName" : "Scope",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "repeatUntilDay" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "B5B7E753-8EE8-4F63-9D46-A65B7EF32B9D",
+    "lessonBody" : "- Cover _Swift Fundamentals 2.6 - Collections_\n\nSuggested Activities:\n- On the whiteboard, diagram several array and dictionary initializations, including dictionaries that contain arrays and dictionaries that contain dictionaries, so that students can see where their types, keys, and values are declared. For example:\n  - `var users: [User] = []`\n  - `let dictionary = [\"Bird\", [\"a warm-blooded egg-laying vertebrate distinguished by the possession of feathers, wings, and a beak and (typically) by being able to fly.\", \"a person of a specified kind or character.\"]`\n\nAdditional Materials:\n- [Old lesson on Collections](https:\/\/github.com\/joybob22\/Mtech-Lessons\/blob\/Unit-2\/Unit%202\/5%20-%20Collections.md)",
+    "lessonID" : "SF15",
+    "lessonName" : "Collections",
+    "mainObjective" : "create arrays and dictionaries of any type, including nested arrays and dictionaries",
+    "objectives" : [
+      "Learn and understand what an Array is",
+      "Learn and understand what a Dictionary is"
+    ],
+    "readingDue" : "Swift Fundamentals 1.6",
+    "schedule" : [
+      {
+        "endTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 30
+        },
+        "task" : "Code Challenge"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "task" : "Code Challenge Solution"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "task" : "Lecture"
+      },
+      {
+        "endTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "task" : "Code Examples"
+      },
+      {
+        "endTime" : {
+          "hour" : 10,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "task" : "Complete Labs"
+      }
+    ]
+  },
+  {
+    "additionalResources" : "Additional Materials:\n- [Old lesson on Loops](https:\/\/github.com\/joybob22\/Mtech-Lessons\/blob\/Unit-2\/Unit%202\/6%20-%20Loops.md)",
+    "id" : "7998A66C-24DF-4236-9AE8-2522FA2E7836",
+    "lessonBody" : "- Cover _Swift Fundamentals 3.7 - Loops_\n\nSuggested Activities:\n- Help students understand the `for in` syntax as \"**For** each item **in** this list of items, do this:\"\n- Human Interpreter activity: Have students manually evaluate several example loops (perhaps generated by LLM) to find a result at the end. For example:\n  - Without running it in Xcode, what will \"result\" be after this loop?\n      ```\n      var result = 1\n      let numbers = [3, 6, 9, 12, 15]\n      for (index, num) in numbers.enumerated() {\n          if index % 2 == 0 {\n              result *= num\n          } else {\n              result += num\n          }\n      }\n      ```",
+    "lessonID" : "SF16",
+    "lessonName" : "Loops",
+    "mainObjective" : "use for and while loops to execute code repeatedly\nidentify appropriate situations to use loops",
+    "objectives" : [
+      "Learn about the different types of loops",
+      "Understand the use case for each type of loop"
+    ],
+    "readingDue" : "Swift Fundamentals 1.7",
+    "schedule" : [
+      {
+        "endTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 30
+        },
+        "task" : "Code Challenge"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "task" : "Code Challenge Solution"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "task" : "Lecture"
+      },
+      {
+        "endTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "task" : "Code Examples"
+      },
+      {
+        "endTime" : {
+          "hour" : 10,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "task" : "Complete Labs"
+      }
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "8CB0E679-E7A5-4051-AE5C-A01A69F2E6C3",
+    "lessonBody" : "Review previous learning objectives as needed\nStudents have time to begin work on Playlist Manager project",
+    "lessonID" : "SF17",
+    "lessonName" : "Review, Introduce Project 2: Playlist Manager",
+    "mainObjective" : "review Swift skills learned so far.\nbuild second project using base skills and structs, classes, collections, loops, scope.",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "20D0AAEE-19C3-46D5-8A86-E62964C64FEC",
+    "lessonBody" : "Continue working on Project 2.",
+    "lessonID" : "SF18",
+    "lessonName" : "Work on Project 2: Playlist Manager",
+    "mainObjective" : "review Swift skills learned so far.\nbuild second project using base skills and structs, classes, collections, loops, scope.",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "7B929EC2-A8F7-403A-BA0D-39B4A56088AD",
+    "lessonBody" : "- Cover _Swift Fundamentals 3.3: Type Casting and Inspection_\n- Review _Swift Fundamentals 3.5: Scope_\n\nOur previous lesson on Scope introduced the concept, but there are more applications for variable shadowing with loops, optionals, and type casting to review and they are now ready to complete their scope lab.\n\nSuggested Activities:\n- Use a \"think aloud\" to walk students through the \"why\" of type casting alongside the how in a practical code example\n- Have students draw a diagram representing the scope of variables in a real code snippet. This would also require identifying all the constants & variables in a snippet (thus finding things like the control variable in a for-loop or new constants created by if-lets)",
+    "lessonID" : "SF19",
+    "lessonName" : "Type Casting, Review Scope",
+    "mainObjective" : "cast variables to different types",
+    "objectives" : [
+      "I can use `as?` along with if-let statements to get an object of a specific type, if possible",
+      "I can use `as!` to force cast an object to a specific type and understand what will happen if it fails",
+      "I can use the `is` type check operator to check the type of a variable",
+      "I can use the `Any` type to store objects regardless of type, then use Type Casting to use them with their actual Type",
+      "I can identify the scope of a variable and explain why scope is a useful and necessary concept",
+      "I can define and use variable shadowing to create new variables with the same name as ones used outside the local scope"
+    ],
+    "readingDue" : "Swift Fundamentals 3.5",
+    "schedule" : [
+      {
+        "endTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 30
+        },
+        "task" : "Code Challenge"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "task" : "Code Challenge Solution"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "task" : "Lecture"
+      },
+      {
+        "endTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "task" : "Code Examples"
+      },
+      {
+        "endTime" : {
+          "hour" : 10,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "task" : "Complete Labs"
+      }
+    ]
+  },
+  {
+    "additionalResources" : "Old lesson on [Optionals](https:\/\/github.com\/joybob22\/Mtech-Lessons\/blob\/Unit-3\/Unit%203\/1-%20Optionals.md)",
+    "id" : "397EDB71-CF8E-4A08-9714-F3B3EA0F0EF7",
+    "lessonBody" : "- Subject is Optionals, Develop in Swift Fundamentals Chapter 3.2\n\nIdeas for additional activities:\n- Ask students in groups to generate a list of examples where Nil and 0 or Nil and \"\" mean different things.\n- Ask students to generate similes\/metaphors\/analogies similar to the one provided by the book (Optionals are like a Box)\n- Ask students to visually map out optionals, optional chaining, force unwrapping, if-lets in a [concept map](https:\/\/d2slcw3kip6qmk.cloudfront.net\/marketing\/pages\/chart\/seo\/concept-maps\/discovery\/mind-maps.svg)",
+    "lessonID" : "SF20",
+    "lessonName" : "Optionals",
+    "mainObjective" : "create optional variables and unwrap them\ncreate failable initializers, use optional chaining, and implicitly unwrap optionals",
+    "objectives" : [
+      "I can define what an optional is and its purpose.",
+      "I can create an optional in code.",
+      "I can create a failable initializer, state its purpose, and describe what happens when it fails.",
+      "I can unwrap an optional using the if-let pattern, and can define what it means to unwrap an optional",
+      "I can use optional chaining to unwrap or access multiple optionals at once",
+      "I can use \"!\" to implicitly unwrap an optional, state what will happen if it fails, and state when it is not appropriate to use one"
+    ],
+    "readingDue" : "Swift Fundamentals 3.2",
+    "schedule" : [
+      {
+        "endTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 30
+        },
+        "task" : "Code Challenge"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "task" : "Code Challenge Solution"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "task" : "Lecture"
+      },
+      {
+        "endTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "task" : "Code Examples"
+      },
+      {
+        "endTime" : {
+          "hour" : 10,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "task" : "Complete Labs"
+      }
+    ]
+  },
+  {
+    "additionalResources" : "Old lesson on [Optionals](https:\/\/github.com\/joybob22\/Mtech-Lessons\/blob\/Unit-3\/Unit%203\/1-%20Optionals.md)",
+    "id" : "C660E03C-850D-40D3-A141-F15688F6BC0B",
+    "lessonBody" : "- Topic: Review Optionals\n- Make sure there's time for students to finish and submit Optionals lab\n\nSuggested Activities:\n- Have students prepare a playground that demonstrates each objective listed above, with comments\n- Have students review their notes (or take notes on the book) and then quiz them\n\nMay also use the ones from previous lesson if we didn't already:\n- Ask students in groups to generate a list of examples where Nil and 0 or Nil and \"\" mean different things.\n- Ask students to generate similes\/metaphors\/analogies similar to the one provided by the book (Optionals are like a Box)\n- Ask students to visually map out optionals, optional chaining, force unwrapping, if-lets in a [concept map](https:\/\/d2slcw3kip6qmk.cloudfront.net\/marketing\/pages\/chart\/seo\/concept-maps\/discovery\/mind-maps.svg)",
+    "lessonID" : "SF21",
+    "lessonName" : "Optionals Review",
+    "mainObjective" : "create optional variables and unwrap them\ncreate failable initializers, use optional chaining, and implicitly unwrap optionals",
+    "objectives" : [
+      "I can define what an optional is and its purpose.",
+      "I can create an optional in code.",
+      "I can create a failable initializer, state its purpose, and describe what happens when it fails.",
+      "I can unwrap an optional using the if-let pattern, and can define what it means to unwrap an optional",
+      "I can use optional chaining to unwrap or access multiple optionals at once",
+      "I can use \"!\" to implicitly unwrap an optional, state what will happen if it fails, and state when it is not appropriate to use one"
+    ],
+    "readingDue" : "Swift Fundamentals 3.3",
+    "schedule" : [
+      {
+        "endTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 30
+        },
+        "task" : "Code Challenge"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "task" : "Code Challenge Solution"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "task" : "Lecture"
+      },
+      {
+        "endTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "task" : "Code Examples"
+      },
+      {
+        "endTime" : {
+          "hour" : 10,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "task" : "Complete Labs"
+      }
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "383D5310-1B24-45F7-AF98-EDC64782D384",
+    "lessonBody" : "- Cover _Swift Fundamentals_ 3.4: Guard\n\nSuggested Activities:\n- Think-Pair-Share: What is the purpose of a guard? Give one example.\n- Ask students in pairs to create a function `launchRocket() -> Bool` and (in psuedocode) write a whole bunch of guard statements in a row.\n  - Then, ask students to change all the guards to if-statements so they can compare and contrast how they work.",
+    "lessonID" : "SF22",
+    "lessonName" : "Guard, Enum",
+    "mainObjective" : "create guard statements and explain how they differ from if statements, as well as guard-let statements and how they differ from if-let statements\ncreate enums to define a limited set of custom options",
+    "objectives" : [
+      "I can use `guard` statements simply to take the place of `if` statements for better readability",
+      "I can use `guard-let` statements to unwrap optionals",
+      "I can state how the scope of unwrapped optionals differs between `if-let` and `guard-let` statements",
+      "I can create an `enum` and describe its basic purpose",
+      "I can use `enum`s in combination with `switch` statements and describe what is useful about the combination",
+      "I can add raw values to `enum` cases"
+    ],
+    "readingDue" : "Swift Fundamentals 3.4",
+    "schedule" : [
+      {
+        "endTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 30
+        },
+        "task" : "Code Challenge"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "task" : "Code Challenge Solution"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "task" : "Lecture"
+      },
+      {
+        "endTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "task" : "Code Examples"
+      },
+      {
+        "endTime" : {
+          "hour" : 10,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "task" : "Complete Labs"
+      }
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "827B8950-4A08-47BD-8A5F-58F76F382E33",
+    "lessonBody" : "- Introduce Calculator Project\n- Review concepts related to assignment as needed",
+    "lessonID" : "SF23",
+    "lessonName" : "Review, Introduce Project 3: Calculator",
+    "mainObjective" : "review prior learning by completing summative projects",
+    "objectives" : [
+      "Learn how to style an app",
+      "Learn how to come back to an app and add more functionality to it."
+    ],
+    "readingDue" : "",
+    "schedule" : [
+      {
+        "endTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 30
+        },
+        "task" : "Code Challenge"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "task" : "Code Challenge Solution"
+      },
+      {
+        "endTime" : {
+          "hour" : 10,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "task" : "Work on Project"
+      }
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "E5D31D38-0D5B-4B89-85B9-FABDFDAD767E",
+    "lessonBody" : "Continue work on Project 3.",
+    "lessonID" : "SF24",
+    "lessonName" : "Work on Project 3: Calculator",
+    "mainObjective" : "review prior learning by completing summative projects",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "repeatUntilDay" : "SF26",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "4A297EAC-2A49-44D5-AAF3-19868628CEF7",
+    "lessonBody" : "",
+    "lessonID" : "SF27",
+    "lessonName" : "Present Project 3: Calculator",
+    "mainObjective" : "review prior learning by completing summative projects",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "BC460848-6B94-48F8-B7AA-ACA1A3053686",
+    "lessonBody" : "- Cover _Swift Data Collections 2.1: Closures_ and _2.2: Extensions_\n\nSuggested Activities:\n- Before starting into the chapter, look at the \"Alert Controller\" section of \"System View Controllers\" chapter (page 193) together, identify where closures are used, and highlight their usefulness",
+    "lessonID" : "SF28",
+    "lessonName" : "Closures and Extensions",
+    "mainObjective" : "describe what a closure is and create one in Swift\nwrite extensions and describe their common purposes (i.e. extending standard types and organization)",
+    "objectives" : [
+      "Objective"
+    ],
+    "readingDue" : "",
+    "schedule" : [
+      {
+        "endTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 30
+        },
+        "task" : "Code Challenge"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "task" : "Code Challenge Solution"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "task" : "Lecture"
+      },
+      {
+        "endTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "task" : "Code Examples"
+      },
+      {
+        "endTime" : {
+          "hour" : 10,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "task" : "Complete Labs"
+      }
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "E6E27F1E-A9C7-4856-AB50-A4F1FD2249DC",
+    "lessonBody" : "- Cover Keynote\n\nToday’s lesson focuses on helping students build their very first UI and defines for them what SwiftUI is.",
+    "lessonID" : "SF29",
+    "lessonName" : "SwiftUI Introduction - Views & Text",
+    "mainObjective" : "",
+    "objectives" : [
+      "I can briefly describe what SwiftUI is, its unique qualities, and how it compares and contrasts to UIKit",
+      "I can define the terms `imperative` and `declarative` syntax and describe what makes SwiftUI declarative",
+      "I can create a struct that conforms to SwiftUI's `View` protocol and place UI in its `body` computed property",
+      "I can definite the `some` keyword and describe its role in building SwiftUI views",
+      "I can implement basic SwiftUI views, including `VStack`, `HStack`, `ZStack`, `Text`, `Button`, `Color`, and `Spacer`",
+      "I can define the term _View Modifier_ and identify them in SwiftUI code",
+      "I can use several basic view modifiers including `.foregroundStyle()`, `.border()`, `.padding()`, and `.background()`",
+      "I can describe why the order of view modifiers matters and how it impacts the way views are changed by them"
+    ],
+    "readingDue" : "",
+    "schedule" : [
+      {
+        "endTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 30
+        },
+        "task" : "Code Challenge"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "task" : "Code Challenge Solution"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "task" : "Lecture"
+      },
+      {
+        "endTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "task" : "Code Examples"
+      },
+      {
+        "endTime" : {
+          "hour" : 10,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "task" : "Complete Labs"
+      }
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "B849EA04-19FF-4105-80BB-04C445FCDE28",
+    "lessonBody" : "- Cover Keynote\n\nToday’s lesson covers what a View Modifier is and how they are used to modify views, such as changing the font and color of a Text view.",
+    "lessonID" : "SF30",
+    "lessonName" : "View Modifiers",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "8D666451-8DA4-4B5F-ADC9-1268AC12BB97",
+    "lessonBody" : "- Cover Keynote\nToday’s lesson teaches students how to control the layout of elements on the screen using stacks and ForEach.",
+    "lessonID" : "SF31",
+    "lessonName" : "VStack, HStack, ZStack, ForEach",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "C245A98B-572C-487A-A3F0-A371EB3FACF9",
+    "lessonBody" : "- Cover Keynote\nStudents will learn abnout @State and the other SwiftUI property wrappers",
+    "lessonID" : "SF32",
+    "lessonName" : "Property Wrappers",
+    "mainObjective" : "",
+    "objectives" : [
+      "I can use `@State` to make properties trigger UI updates",
+      "I can define the term _View Hierarchy_ and how it affects how data is used in SwiftUI",
+      "I can describe the purpose and usage of the `Observation` framework",
+      "I can use `@Observable` to make classes and structs able trigger UI updates",
+      "I can use `@Environment` and `.environment()` to pass data down the view heirarchy",
+      "I can define what it means to bind a property and when it is necessary",
+      "I can bind properties in standard SwiftUI views that require it using the `$` prefix",
+      "I can use `@Bindable` to make an `@Observable` model bindable",
+      "I can distinguish when to use each of the previously used property wrappers and when they may be intercheangable"
+    ],
+    "readingDue" : "",
+    "repeatUntilDay" : "SF35",
+    "schedule" : [
+      {
+        "endTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 30
+        },
+        "task" : "Code Challenge"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "task" : "Code Challenge Solution"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "task" : "Lecture"
+      },
+      {
+        "endTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "task" : "Code Examples"
+      },
+      {
+        "endTime" : {
+          "hour" : 10,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "task" : "Complete Labs"
+      }
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "EB88FAD7-6247-4CBF-B702-B1E3D6B473EF",
+    "lessonBody" : "Review previous lesson as needed; provide time to work on completing lab",
+    "lessonID" : "SF33",
+    "lessonName" : "Review Property Wrappers",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "72E48D4F-8F23-4140-B667-5C6FDAD9F65A",
+    "lessonBody" : "- Cover Keynote\nToday’s lesson will teach students how to create and style a Button in SwiftUI.",
+    "lessonID" : "SF34",
+    "lessonName" : "Buttons",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "5878E7DD-8EC1-4E0A-B8C1-790A9E73D3F7",
+    "lessonBody" : "Today’s lesson will cover other commonly used UI elements not yet introduced, with a focus on teaching students to use documentation to learn how to include any given UI element.",
+    "lessonID" : "SF35",
+    "lessonName" : "UI Elements & Controls",
+    "mainObjective" : "create more SwiftUI elements such as Images, Shapes, TextFields, Switches, Sliders and more",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "ADF7A88F-E6D4-40BF-9039-DE786F722A6E",
+    "lessonBody" : "Introduce List and Form in SwiftUI; cover their styles, their restrictions, and compare static and dynamic lists and forms.",
+    "lessonID" : "SF36",
+    "lessonName" : "List, Form",
+    "mainObjective" : "use lists and forms to generate common UI layouts",
+    "objectives" : [
+      "I can use Lists and Forms to generate commonly used UI forms",
+      "I can differentiate between global and local scope and use both effectively",
+      "I can define and use variable name shadowing"
+    ],
+    "readingDue" : "",
+    "schedule" : [
+      {
+        "endTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 30
+        },
+        "task" : "Code Challenge"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "task" : "Code Challenge Solution"
+      },
+      {
+        "endTime" : {
+          "hour" : 9,
+          "minute" : 0
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "task" : "Code Examples"
+      },
+      {
+        "endTime" : {
+          "hour" : 10,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 9,
+          "minute" : 0
+        },
+        "task" : "Complete Labs"
+      }
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "09B78BE0-385C-47D0-A0EA-7EE8D2A015E2",
+    "lessonBody" : "- Review SwiftUI as needed\nIntroduce Project #4. This will be the first project where students have had to build a UI.",
+    "lessonID" : "SF37",
+    "lessonName" : "Review, Introduce Project #4: Meet My Family",
+    "mainObjective" : "",
+    "objectives" : [
+      "Review Table Views",
+      "Modify an existing app to use a table view that leads to a detail view"
+    ],
+    "readingDue" : "",
+    "repeatUntilDay" : "TP01",
+    "schedule" : [
+      {
+        "endTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 30
+        },
+        "task" : "Code Challenge"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "task" : "Code Challenge Solution"
+      },
+      {
+        "endTime" : {
+          "hour" : 10,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "task" : "Work on Project"
+      }
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "0DFFF053-235B-4745-847F-927F917EAB97",
+    "lessonBody" : "Continue working on Project #4.",
+    "lessonID" : "SF38",
+    "lessonName" : "Work on Project 4",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "C3A93453-55DB-4E1D-A896-7CF7ACA931C5",
+    "lessonBody" : "- Cover [SwiftUI - Subviews.key](.\/Materials\/SwiftUI\/SwiftUI%20-%20Subviews.key)\nStudents will learn how to build a custom View in SwiftUI.",
+    "lessonID" : "TP01",
+    "lessonName" : "Subviews",
+    "mainObjective" : "",
+    "objectives" : [
+      "I can define the term _subview_ and why subviews are useful in SwiftUI",
+      "I can use `@Binding` and define its purpose",
+      "I can use `ForEach` and describe its components (data and content)",
+      "I can use a `List` and describe its purpose, as well as how it compares to `UITableView` in UIKit"
+    ],
+    "readingDue" : "",
+    "schedule" : [
+      {
+        "endTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 30
+        },
+        "task" : "Code Challenge"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "task" : "Code Challenge Solution"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "task" : "Lecture"
+      },
+      {
+        "endTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "task" : "Code Examples"
+      },
+      {
+        "endTime" : {
+          "hour" : 10,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "task" : "Complete Labs"
+      }
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "B756ABC7-28EA-4DDB-A699-2E189A95272C",
+    "lessonBody" : "- Cover [SwiftUI - Navigation.key](.\/Materials\/SwiftUI\/SwiftUI%20-%20Navigation.key)\nToday’s lessson is about basic navigation tools in SwiftUI.",
+    "lessonID" : "TP02",
+    "lessonName" : "Navigation",
+    "mainObjective" : "",
+    "objectives" : [
+      "I can define the term _stack_ in a computer science context and describe what it means to be a Last-In-First-Out data structure",
+      "I can use `NavigationStack` to manage navigation in SwiftUI and describe how it compares to `UINavigationController` in SwiftUI",
+      "I can use a `NavigationLink` to create simple buttons that display new views within a `NavigationStack`",
+      "I can hide the navigation bar in a `NavigationStack`",
+      "I can programatically dismiss a view using the `dismiss` environment function",
+      "I can use `.sheet(isPresented:)` to display a modal view",
+      "I can use `TabView` to embed multiple views in tabs and compare it to `UITabBarController`"
+    ],
+    "readingDue" : "",
+    "schedule" : [
+      {
+        "endTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 30
+        },
+        "task" : "Code Challenge"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "task" : "Code Challenge Solution"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "task" : "Lecture"
+      },
+      {
+        "endTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "task" : "Code Examples"
+      },
+      {
+        "endTime" : {
+          "hour" : 10,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "task" : "Complete Labs"
+      }
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "B7277F1A-410A-4AB5-9361-2F40336EFF6C",
+    "lessonBody" : "Review Navigation objectives as needed, then provide time to work on Navigation lab.",
+    "lessonID" : "TP03",
+    "lessonName" : "Review Navigation",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "DCD43BDF-9380-4745-BC5F-CD29B9DFA26B",
+    "lessonBody" : "Review prior concepts as needed, then introduce Project 5.",
+    "lessonID" : "TP04",
+    "lessonName" : "Review, Introduce Project 5: Personality Quiz Part 1",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "6613ABD3-2A55-4A40-9462-0DF856E17174",
+    "lessonBody" : "",
+    "lessonID" : "TP05",
+    "lessonName" : "Work on Project 5: Personality Quiz Part 1",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "9B3794D8-DD4B-4D29-A926-97CB49E78C1B",
+    "lessonBody" : "",
+    "lessonID" : "TP06",
+    "lessonName" : "SwiftUI App Lifecycle",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "3BA02C48-87CB-4628-A927-D2C12666C67A",
+    "lessonBody" : "- Cover [SwiftUI - Architecture.key](.\/Materials\/SwiftUI\/SwiftUI%20-%20Architecture.key)\n\n# Suggested Activities\n- Have an open ended discussion prior to the lesson on other times in life where architecture is important or a drawback. Examples might include outlining an essay, structuring a workplace, or planning a wedding.\n- Make sure students understand that architecture is optional in the sense that they have different architectures to choose from, or can write spaghetti code and worry about it later. (Might not be the best option but it is an option!)",
+    "lessonID" : "TP07",
+    "lessonName" : "Architecture with MVVM",
+    "mainObjective" : "",
+    "objectives" : [
+      "I can define the term _architecture_ in the context of app development and describe why it's important to consider architecture",
+      "I can define the architectural style generally used in UIKit, \"MVC\"",
+      "I can identify a few different potential architectures applicable to SwiftUI",
+      "I can state what the acronym _MVVM_ stands for",
+      "I can describe advantages and disadvantages to using MVVM",
+      "I can describe similarities to and differences from MVC in MVVM",
+      "I can use MVVM in SwiftUI by creating and using ViewModel objects."
+    ],
+    "readingDue" : "",
+    "schedule" : [
+      {
+        "endTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 30
+        },
+        "task" : "Code Challenge"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "task" : "Code Challenge Solution"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "task" : "Lecture"
+      },
+      {
+        "endTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "task" : "Code Examples"
+      },
+      {
+        "endTime" : {
+          "hour" : 10,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "task" : "Complete Labs"
+      }
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "3F1BD5D3-E662-4493-A7DB-457B29DD0017",
+    "lessonBody" : "",
+    "lessonID" : "TP08",
+    "lessonName" : "Review MVVM",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "B08BD2EF-5F98-402B-B240-C446455F23E7",
+    "lessonBody" : "",
+    "lessonID" : "TP09",
+    "lessonName" : "Imperative vs Declarative Introduction",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "000E3D3B-11AD-4B87-BA01-C74E3289923F",
+    "lessonBody" : "",
+    "lessonID" : "TP10",
+    "lessonName" : "Review, Introduce Project 6: Personality Quiz Part 2",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "3E0790D1-524F-4A8D-A6B5-4FC4185DEE33",
+    "lessonBody" : "",
+    "lessonID" : "TP11",
+    "lessonName" : "Work on Project 6: Personality Quiz Part 2",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "A677A423-20F7-4045-8074-2A224F35F31E",
+    "lessonBody" : "",
+    "lessonID" : "TP12",
+    "lessonName" : "Work on Project 6: Personality Quiz Part 2",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "45B9C12B-7F8A-4744-A92E-F8EC467C92FE",
+    "lessonBody" : "",
+    "lessonID" : "TP13",
+    "lessonName" : "Present Project 6: Personality Quiz Part 2",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "0549EDBB-F90A-4B2D-B11E-49F20BADE8AC",
+    "lessonBody" : "",
+    "lessonID" : "TP14",
+    "lessonName" : "Review, Introduce Project 7",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "546C5B57-EE23-4128-BED4-C499615C6462",
+    "lessonBody" : "",
+    "lessonID" : "TP15",
+    "lessonName" : "Work on Project 7",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "380D3264-4B98-48A6-B621-B73D11CF23CC",
+    "lessonBody" : "",
+    "lessonID" : "TP16",
+    "lessonName" : "Work on Project 7",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "113D4438-9545-48A0-AA35-3FCE1B67A4AA",
+    "lessonBody" : "",
+    "lessonID" : "TP17",
+    "lessonName" : "Work on Project 7",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "754FC5C6-BAB7-4630-B785-8F450F0EB209",
+    "lessonBody" : "",
+    "lessonID" : "TP18",
+    "lessonName" : "Finish Project 7",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "0B57670D-972D-4F26-9909-F16B5AABC647",
+    "lessonBody" : "- Cover _Swift Data Collections 1.1 - Protocols_.\n\n**Suggested Activities:**\n- Have students use their knowledge of common protocols to quickly recreate one or more of Swift's existing protocols. For example:\n```\nprotocol MyCustomStringConvertible {\n    var description: String { get }\n}\n```\n- Show students protocols you've used in your code.\n- Today may be a good time to clearly define the term \"API.\" It's not key to today's lesson but relevant to the unit as a whole.",
+    "lessonID" : "TP19",
+    "lessonName" : "Protocols",
+    "mainObjective" : "adopt commonly used Swift protocols such as Equatable.\ncreate custom protocols.",
+    "objectives" : [
+      "I can define the term **protocol** and state why protocols are used.",
+      "I can **adopt** and **conform** to common Swift protocols such as `Equatable` and `Codable`.",
+      "I can create my own protocol, and understand some common uses for doing so",
+      "I can define the term **delegation** at a broad level (we will learn more about them as we go)."
+    ],
+    "readingDue" : "Data Collections 1.1",
+    "schedule" : [
+      {
+        "endTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 30
+        },
+        "task" : "Code Challenge"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "task" : "Code Challenge Solution"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "task" : "Lecture"
+      },
+      {
+        "endTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "task" : "Code Examples"
+      },
+      {
+        "endTime" : {
+          "hour" : 10,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "task" : "Complete Labs"
+      }
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "4B255E08-7CA5-4333-9DB6-29A9F61C92A1",
+    "lessonBody" : "",
+    "lessonID" : "TP20",
+    "lessonName" : "Review Protocols",
+    "mainObjective" : "adopt commonly used Swift protocols such as Equatable.\ncreate custom protocols.",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "F7A4FFDE-1FFF-416D-9C71-8940167720BD",
+    "lessonBody" : "- Cover [SOLID.key](.\/Materials\/SOLID.key)\n\nSuggested Activities:\n- Have students take notes on each principle and make sure they understand it before moving on to the next\n- Do a walkthrough of the lab before having students create another example",
+    "lessonID" : "TP21",
+    "lessonName" : "SOLID Design",
+    "mainObjective" : "thoughtfully design code with SOLID principles",
+    "objectives" : [
+      "I can identify pros and cons of using SOLID architecture",
+      "I can define and implement the Single Responsibility principle",
+      "I can define and implement the Open\/Closed principle",
+      "I can define and implement the Liskov Substitution principle",
+      "I can define and implement the Interface Segregation principle",
+      "I can define and implement the Dependency Inversion principle",
+      "I can define and implement Protocol Oriented Programming",
+      "I can define and use Dependency Injection"
+    ],
+    "readingDue" : "",
+    "schedule" : [
+      {
+        "endTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 30
+        },
+        "task" : "Code Challenge"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "task" : "Code Challenge Solution"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "task" : "Lecture"
+      },
+      {
+        "endTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "task" : "Code Examples"
+      },
+      {
+        "endTime" : {
+          "hour" : 10,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "task" : "Complete Labs"
+      }
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "728F1AA9-106B-4EF4-92C0-1D21BE82F9CF",
+    "lessonBody" : "- Cover [Delegates.key](.\/Materials\/Delegates.key)\n  - Please feel free to add to \/ suggest additions to this keynote.\n \nSuggested activities:\n- In small groups, have students create a shared document that teaches other students what delegation is and how to use them.",
+    "lessonID" : "TP22",
+    "lessonName" : "Delegation",
+    "mainObjective" : "",
+    "objectives" : [
+      "I can define what a `delegate` is",
+      "I can adopt existing Swift\/UIKit delegate protocols such as `UITextFieldDelegate`",
+      "I can create a delegate protocol (which is not different than a regular one, but is a specific purpose for a protocol)",
+      "I can build a delegator\/delegate connection between two classes"
+    ],
+    "readingDue" : "",
+    "schedule" : [
+      {
+        "endTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 30
+        },
+        "task" : "Code Challenge"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "task" : "Code Challenge Solution"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "task" : "Lecture"
+      },
+      {
+        "endTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "task" : "Code Examples"
+      },
+      {
+        "endTime" : {
+          "hour" : 10,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "task" : "Complete Labs"
+      }
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "82EB22DE-F9E1-4614-BF63-545FC0D5C2AA",
+    "lessonBody" : "",
+    "lessonID" : "TP23",
+    "lessonName" : "Error Handling",
+    "mainObjective" : "use the `throws`, `try`, `do`, and `catch` keyword to generate and handle errors",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "2F3ABD94-858C-4FE2-9548-B8B3651376C9",
+    "lessonBody" : "- Cover _Swift Data Collections 1.7: Saving Data_\n\nSuggested Activities:\n- Take some time for students to take notes on the vocabulary of data storage:\n  - Encode\/Decode\n  - Persist\n  - Disk\n  - Write\/Read\n  - Data\n  - Serialization\n  - Sandbox\n- Have students draw visual representations\/diagrams of the steps required to write and retrieve data.",
+    "lessonID" : "TP24",
+    "lessonName" : "Saving Data - FileManager and UserDefaults",
+    "mainObjective" : "",
+    "objectives" : [
+      "I can describe why the `Codable` protocol is important when saving data",
+      "I can encode some data using an Encoder like `PropertyListEncoder` and describe the purpose of doing so",
+      "I can use `FileManager` to create a full file path and can state what a file path is",
+      "I can use the `.write(to:options:)` method of encoded data to write that data to the disk",
+      "I can fetch some data from the disk using the `Data(contentsOf:)` initializer with a file path",
+      "I can use `PropertyListDecoder` to decode some data and state the purpose of doing so"
+    ],
+    "readingDue" : "Data Collections 1.7",
+    "schedule" : [
+      {
+        "endTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 30
+        },
+        "task" : "Code Challenge"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "task" : "Code Challenge Solution"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "task" : "Lecture"
+      },
+      {
+        "endTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "task" : "Code Examples"
+      },
+      {
+        "endTime" : {
+          "hour" : 10,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "task" : "Complete Labs"
+      }
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "FEA8214C-FA19-43DC-A2B0-082C562B5DA7",
+    "lessonBody" : "- Cover _Swift Data Collections 2.4: HTTP and URLSession_.\n\nSuggested Activities:\n- Spend extra time up front reviewing the history of URLs, web browsers, and what a webpage fundamentally is so that students better understand why we use them.",
+    "lessonID" : "TP25",
+    "lessonName" : "HTTP and URLSession",
+    "mainObjective" : "use URLSession to send and fetch data",
+    "objectives" : [
+      "I can describe the basics of the HTTP networking protocol, including commonly used methods, response types, and response codes",
+      "I can describe the different attributes of a URL and can create a URL with query items",
+      "I can use `URLSession.shared` to perform basic HTTP methods for sending and receiving information",
+      "I can print the results of a `URLSession` task to the console."
+    ],
+    "readingDue" : "Data Collections 2.4",
+    "schedule" : [
+      {
+        "endTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 30
+        },
+        "task" : "Code Challenge"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "task" : "Code Challenge Solution"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "task" : "Lecture"
+      },
+      {
+        "endTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "task" : "Code Examples"
+      },
+      {
+        "endTime" : {
+          "hour" : 10,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "task" : "Complete Labs"
+      }
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "C9DB1E6E-8B92-43BA-88D9-A4E95194C724",
+    "lessonBody" : "- Cover _Swift Data Collections 2.5: Decoding JSON_",
+    "lessonID" : "TP26",
+    "lessonName" : "Decoding JSON",
+    "mainObjective" : "use and interpret JSON data",
+    "objectives" : [
+      "I can state some common uses for JSON",
+      "I can read basic JSON data and understand the syntax and purpose",
+      "I can use the JSONDecoder class to decode JSON",
+      "I can decode JSON data into custom Swift types",
+      "I can use `await` to call `async` methods and can describe what each of those keywords does in Swift",
+      "I can use `Task`s to wrap asynchronous code and can describe what a `Task` does",
+      "I can create custom `Error` enums and use `throw` functions"
+    ],
+    "readingDue" : "Data Collections 2.5",
+    "schedule" : [
+      {
+        "endTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 30
+        },
+        "task" : "Code Challenge"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "task" : "Code Challenge Solution"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "task" : "Lecture"
+      },
+      {
+        "endTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "task" : "Code Examples"
+      },
+      {
+        "endTime" : {
+          "hour" : 10,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "task" : "Complete Labs"
+      }
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "A80FBBB8-93A5-4A45-B925-987C7157CBCA",
+    "lessonBody" : "",
+    "lessonID" : "TP27",
+    "lessonName" : "Review HTTP, URLSession, JSON",
+    "mainObjective" : "use and interpret JSON data",
+    "objectives" : [
+
+    ],
+    "readingDue" : "Data Collections 2.5",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "F3A1ECEB-C242-43BC-A85E-23293C5BFB50",
+    "lessonBody" : "- Cover _Swift Data Collections 2.6: Concurrency_\n\nSuggested Activities:\n- This lesson relies heavily on the previous two lessons, so spend extra time reviewing them before moving on to this chapter.\n- Review how a multi core processor works, what threads are, what race conditions are, and why we need to think about the order functions are executed.\n  - One fun activity could be having students roleplay as a processor. Have one group of four students compete against an individual student to complete a list of math problems and use this as an analogy for concurrency.\n- Have students visually annotate or diagram the code on page 459. Screenshot of what this might look like in Freeform is included below. Encourage students to annotate as much information as possible (and is still relevant to the lesson).",
+    "lessonID" : "TP28",
+    "lessonName" : "Concurrency",
+    "mainObjective" : "describe how processors handle multiple functions simultaneously\nwrite asynchronous network code",
+    "objectives" : [
+      "I can define the term concurrency and describe the basics of how a processor executes code on different threads",
+      "I can explain what `DispatchQueue.main.async` does and what the main thread is",
+      "I can identify when code needs to be run on the main thread and how to do so",
+      "I can describe what a secure HTTP connection is and how to resolve errors related to insecure connections",
+      "I can use network activity indicators to represent network activity to end users"
+    ],
+    "readingDue" : "Data Collections 2.6",
+    "schedule" : [
+      {
+        "endTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 30
+        },
+        "task" : "Code Challenge"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "task" : "Code Challenge Solution"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "task" : "Lecture"
+      },
+      {
+        "endTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "task" : "Code Examples"
+      },
+      {
+        "endTime" : {
+          "hour" : 10,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "task" : "Complete Labs"
+      }
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "707348F5-5861-4212-A821-41F566E6B073",
+    "lessonBody" : "",
+    "lessonID" : "ND01",
+    "lessonName" : "Review Concurrency",
+    "mainObjective" : "describe how processors handle multiple functions simultaneously\nwrite asynchronous network code",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "0D0268CD-1780-42D5-915F-64F23F278B0C",
+    "lessonBody" : "- Cover _Swift Data Collections 3.2: Swift Generics_\n\nSuggested Activities:\n- Show students some Objective-C or JavaScript or something and show how generics only make sense in a type safe language, and help students understand that the hoops they jump through to use Generics is a strength of Swift, not an arbitrary complication.",
+    "lessonID" : "ND02",
+    "lessonName" : "Swift Generics",
+    "mainObjective" : "use generics to create cleaner and safer code",
+    "objectives" : [
+      "I can describe the purpose and benefits of using generics, including why Swift requires them unlike other non-type-safe languages",
+      "I can identify and use the syntax of generic types and methods (for example, `<T>`, as well as the `where` keyword)",
+      "I can describe how generics work in protocols, including the use of the `associatedtype` keyword",
+      "I can describe the advantages of using generics in combination with protocols"
+    ],
+    "readingDue" : "Data Collections 3.2",
+    "schedule" : [
+      {
+        "endTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 30
+        },
+        "task" : "Code Challenge"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "task" : "Code Challenge Solution"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "task" : "Lecture"
+      },
+      {
+        "endTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "task" : "Code Examples"
+      },
+      {
+        "endTime" : {
+          "hour" : 10,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "task" : "Complete Labs"
+      }
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "7A4D11DA-BF14-4E9D-865A-B9F94459EF25",
+    "lessonBody" : "",
+    "lessonID" : "ND03",
+    "lessonName" : "Swift Generics",
+    "mainObjective" : "use generics to create cleaner and safer code",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "- Old lesson on [Documentation](https:\/\/github.com\/joybob22\/Mtech-Lessons\/blob\/main\/Unit%201\/7%20-%20Documentation.md)\n",
+    "id" : "2743EBF1-CD45-4F36-A99D-3180FDF5FFC6",
+    "lessonBody" : "- Cover _Swift Fundamentals  1.8 - Documentation_",
+    "lessonID" : "ND04",
+    "lessonName" : "Combining Protocols, Concurrency, and Generics",
+    "mainObjective" : "leverage Swift’s advanced features together to create complex systems",
+    "objectives" : [
+
+    ],
+    "readingDue" : "Swift Fundamentals 1.8",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "395C1A29-D324-4B36-9845-4F422F73A760",
+    "lessonBody" : "- Introduce [Random APIs Part 1](.\/Materials\/Random%20APIs%20Project%20(Part%201)%20Requirements.md)\n- Review concepts as needed",
+    "lessonID" : "ND05",
+    "lessonName" : " Random APIs Project Part 1",
+    "mainObjective" : "use your understanding of networking to access API data",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "repeatUntilDay" : "ND08",
+    "schedule" : [
+      {
+        "endTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 30
+        },
+        "task" : "Code Challenge"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "task" : "Code Challenge Solution"
+      },
+      {
+        "endTime" : {
+          "hour" : 10,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "task" : "Work on Project"
+      }
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "606EB027-82E1-4E6D-A802-D9A8E175993C",
+    "lessonBody" : "",
+    "lessonID" : "ND06",
+    "lessonName" : "Work on Project 8: Random APIs",
+    "mainObjective" : "use your understanding of networking to access API data",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "30E993AE-8C9E-4AAB-BFE2-75EF324FEC54",
+    "lessonBody" : "",
+    "lessonID" : "ND07",
+    "lessonName" : "Work on Project 8: Random APIs",
+    "mainObjective" : "use your understanding of networking to access API data",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "2354EFDE-A9AA-4BAD-856A-CBE2B67772F4",
+    "lessonBody" : "",
+    "lessonID" : "ND08",
+    "lessonName" : "Work on Project 8: Random APIs",
+    "mainObjective" : "use your understanding of networking to access API data",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "7A518EAC-0949-4492-9407-828E10651F6B",
+    "lessonBody" : "- Cover [CoreData: SwiftData.key](.\/Materials\/Core%20Data\/Core%20Data%20-%20SwiftData.key)\n\n**Suggested Activities:**\n- Have students start by reading the documentation before diving into the lesson\n- Have students try making a new SwiftData project and walk them through the autogenerated code before going through the slides\n- Walk students through building a SwiftData project from scratch using [the Animal data entry example in the SwiftData docs](https:\/\/developer.apple.com\/documentation\/swiftdata\/adding-and-editing-persistent-data-in-your-app) (including the steps on [this page on Enums](https:\/\/developer.apple.com\/documentation\/swiftdata\/defining-data-relationships-with-enumerations-and-model-classes))",
+    "lessonID" : "ND09",
+    "lessonName" : "SwiftData",
+    "mainObjective" : "",
+    "objectives" : [
+      "I can state how CoreData and SwiftData are related to each other and what makes SwiftData different than CoreData",
+      "I can use the \"Convert to SwiftData\" option on an `.xcdatamodel` file and resolve common errors in conversion that may arise",
+      "I can use `@Model` to make a class SwiftData compatible",
+      "I can mark a property with `@Attribute` to set its SwiftData settings, such as making it `.unique`",
+      "I can create relationships between SwiftData models with default relatioship behavior",
+      "I can create relationships using `@Relationship` to define custom relationship behavior",
+      "I can avoid errors in relationships by marking properties optional and defining relationships post-initialization",
+      "I can create a `ModelContainer` with custom `ModelConfiguration` properties and add it to the environment using the `.modelContainer()` modifier",
+      "I can use `ModelContext`'s `.insert()` method to add an instance of a model into the context so it persists",
+      "I can use `ModelContext`'s `.save()` method to override the autosave functionality (and know to use it sparingly)",
+      "I can use `@Query` to pull stored data from the model context and use its settings to configure predicates and sorting"
+    ],
+    "readingDue" : "",
+    "schedule" : [
+      {
+        "endTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 30
+        },
+        "task" : "Code Challenge"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "task" : "Code Challenge Solution"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "task" : "Lecture"
+      },
+      {
+        "endTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "task" : "Code Examples"
+      },
+      {
+        "endTime" : {
+          "hour" : 10,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "task" : "Complete Labs"
+      }
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "2CF7527E-1337-4151-AC99-2BBC658DB760",
+    "lessonBody" : "",
+    "lessonID" : "ND10",
+    "lessonName" : "SwiftData",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "718F7F97-9AA9-4A8C-B24B-5E377A45D216",
+    "lessonBody" : "",
+    "lessonID" : "ND11",
+    "lessonName" : "SwiftData",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "B77EB7B6-FC85-40AC-9D85-F9B9F0D9FEB3",
+    "lessonBody" : "",
+    "lessonID" : "ND12",
+    "lessonName" : "Other Architectures",
+    "mainObjective" : "compare MVVM to other architecture options.\nreview and refine understanding of MVVM.",
+    "objectives" : [
+
+    ],
+    "readingDue" : "Review lesson slides",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "EE025D20-66C2-4996-B620-B57B8CB0F4DD",
+    "lessonBody" : "",
+    "lessonID" : "ND13",
+    "lessonName" : "Advanced Navigation",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "Review lesson slides",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "61BE836F-1A5B-4BB4-8126-0C15E28ACAEC",
+    "lessonBody" : "",
+    "lessonID" : "ND14",
+    "lessonName" : "Review Advanced Navigation",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "Review lesson slides",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "00A33474-8DBE-4E34-BDC0-D3C1B2B4C184",
+    "lessonBody" : "- Cover [SwiftUI - Animations.key](.\/Materials\/SwiftUI\/SwiftUI%20-%20Animations.key)",
+    "lessonID" : "ND15",
+    "lessonName" : "Animations",
+    "mainObjective" : "add simple animations to SwiftUI views",
+    "objectives" : [
+      "I can state some of the rationale provided by the HIG for why animations are important",
+      "I can use a ternary operator combined with SwiftUI view modifiers to change the size (or other values) of a `View`",
+      "I can use the .animation(_:, value:) view modifier to create simple animations that occur when a value tied to a View's property, such as its frame or another variable, changes.",
+      "I can use the duration and delay properties to change the timing of animations.",
+      "I can use the withAnimation function in SwiftUI to animate any changes to variables made inside of its closure",
+      "I can create advanced animations using `.spring` or `.interpolatingSpring` and their parameters",
+      "I can use `.onAppear` and `.task` to run code when a view first appears on screen (and describe the minor difference between them)",
+      "I can use `withAnimation`'s completion closure to chain animations together or run other code"
+    ],
+    "readingDue" : "Review lesson slides",
+    "schedule" : [
+      {
+        "endTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 30
+        },
+        "task" : "Code Challenge"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "task" : "Code Challenge Solution"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "task" : "Lecture"
+      },
+      {
+        "endTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "task" : "Code Examples"
+      },
+      {
+        "endTime" : {
+          "hour" : 10,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "task" : "Complete Labs"
+      }
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "061648AE-90E2-4EA7-86C9-1D5EB3455501",
+    "lessonBody" : "",
+    "lessonID" : "ND16",
+    "lessonName" : "MatchedGeometryEffect & Custom Transitions",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "A723E408-C7B2-493B-AE4F-F6C5BEEE736A",
+    "lessonBody" : "",
+    "lessonID" : "ND17",
+    "lessonName" : "Review, Introduce Project 9: Games Tracker",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "894D89AD-DFE3-4719-A7B6-EA9269897965",
+    "lessonBody" : "",
+    "lessonID" : "ND18",
+    "lessonName" : "Work on Project 9",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "2F4C4C3A-15A1-4585-B4BB-A5B8E43A6393",
+    "lessonBody" : "",
+    "lessonID" : "ND19",
+    "lessonName" : "Work on Project 9",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "4A2C1A2D-699C-44BA-9ACC-1D73A14545E9",
+    "lessonBody" : "",
+    "lessonID" : "ND20",
+    "lessonName" : "Pickers",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "Review lesson slides",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "77B01DB5-7E5E-411F-9D60-7E521F41897F",
+    "lessonBody" : "",
+    "lessonID" : "ND21",
+    "lessonName" : "AsyncImage",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "3DB61BBD-ADFA-4D49-A1E1-372813B58743",
+    "lessonBody" : "",
+    "lessonID" : "ST01",
+    "lessonName" : "GeometryReader",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "Review lesson slides",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "BF0EF875-C0F5-4A26-9821-93AB239F7F09",
+    "lessonBody" : "- Cover [SwiftUI - Advanced Layouts with Grids and LazyGrids.key](.\/Materials\/SwiftUI\/SwiftUI%20-%20Advanced%20Layouts%20with%20Grids%20and%20LazyGrids.key)",
+    "lessonID" : "ST02",
+    "lessonName" : "Advanced Layout with Grids",
+    "mainObjective" : "build views equivalent to UIKit's collection views in SwiftUI using LazyGrids",
+    "objectives" : [
+      "I can build a simple fixed grid layout with `Grid` and `GridRow`",
+      "I can build a dynamic lazy grid layout with `LazyVGrid` and `LazyHGrid`",
+      "I can use `GridItem` to define the size and behavior of grid rows\/columns",
+      "I can define the keyword `lazy` in the context of Swift development and use it to manage performance"
+    ],
+    "readingDue" : "Review lesson slides",
+    "schedule" : [
+      {
+        "endTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 30
+        },
+        "task" : "Code Challenge"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "task" : "Code Challenge Solution"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "task" : "Lecture"
+      },
+      {
+        "endTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "task" : "Code Examples"
+      },
+      {
+        "endTime" : {
+          "hour" : 10,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "task" : "Complete Labs"
+      }
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "A7A6BD83-CBA5-46C8-BDE9-8C4ED1FE233C",
+    "lessonBody" : "",
+    "lessonID" : "ST03",
+    "lessonName" : "Review LazyGrids",
+    "mainObjective" : "build views equivalent to UIKit's collection views in SwiftUI using LazyGrids",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "5F678BAC-EF9D-4002-BDEA-C3DDA64CC04D",
+    "lessonBody" : "- Cover [SwiftUI - Advanced SwiftUI Techniques.key](.\/Materials\/SwiftUI\/SwiftUI%20-%20Advanced%20SwiftUI%20Techniques.key)\n\n#",
+    "lessonID" : "ST04",
+    "lessonName" : "SwiftUI - Advanced Techniques",
+    "mainObjective" : "build views equivalent to UIKit's collection views in SwiftUI using LazyGrids",
+    "objectives" : [
+      "I can implement custom buttons in SwiftUI using `ButtonStyle` for reusability and consistent design.",
+      "I can create and apply custom view modifiers to enhance reusability and maintainability.",
+      "I can manage view states using SwiftUI enums to improve UI logic and state transitions.",
+      "I can utilize the `@ViewBuilder` attribute to simplify complex UI layouts."
+    ],
+    "readingDue" : "Review lesson slides",
+    "schedule" : [
+      {
+        "endTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 30
+        },
+        "task" : "Code Challenge"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "task" : "Code Challenge Solution"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "task" : "Lecture"
+      },
+      {
+        "endTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "task" : "Code Examples"
+      },
+      {
+        "endTime" : {
+          "hour" : 10,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "task" : "Complete Labs"
+      }
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "6E14DF34-8D1B-4FB6-9AA5-6B100345918B",
+    "lessonBody" : "",
+    "lessonID" : "ST05",
+    "lessonName" : "Enum-Based View States, Custom View Builders",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "Review lesson slides",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "2A7215BA-6B41-4ADB-B0CB-33C4F2835212",
+    "lessonBody" : "",
+    "lessonID" : "ST06",
+    "lessonName" : "Review, Introduce Project 10",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "B099886D-E8D9-40A1-AC53-30BCB817847F",
+    "lessonBody" : "",
+    "lessonID" : "ST07",
+    "lessonName" : "Work on Project 10",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "A05C7F08-AFD9-413D-879E-97CF8684EE91",
+    "lessonBody" : "",
+    "lessonID" : "ST08",
+    "lessonName" : "Work on Project 10",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "EDDCB4A8-9D99-4771-98D6-5B05E503CA25",
+    "lessonBody" : "",
+    "lessonID" : "ST09",
+    "lessonName" : "Review, Introduce Project 11: Trip Logger",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "2D046D38-51F6-4B66-B297-97938DEB7F12",
+    "lessonBody" : "",
+    "lessonID" : "ST10",
+    "lessonName" : "Work on Project 11: Trip Logger",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "2CB9693F-1C30-46C9-85C6-047E83D9B235",
+    "lessonBody" : "",
+    "lessonID" : "ST11",
+    "lessonName" : "Work on Project 11: Trip Logger",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "B20AAEAA-57CF-442D-A5C3-D9D5A762FA57",
+    "lessonBody" : "",
+    "lessonID" : "ST12",
+    "lessonName" : "Work on Project 11: Trip Logger",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "021009B7-8B92-4ABB-8AB5-D289C5A161D1",
+    "lessonBody" : "",
+    "lessonID" : "ST13",
+    "lessonName" : "Work on Project 11: Trip Logger",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "0C61A12A-7700-4007-9763-0C0C95FEF409",
+    "lessonBody" : "",
+    "lessonID" : "ST14",
+    "lessonName" : "Present Project 11: Trip Logger",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "**Additional Materials:**\n- Old lesson on [Interface Builder Basics](https:\/\/github.com\/joybob22\/Mtech-Lessons\/blob\/main\/Unit%201\/8%20-%20Interface%20Builder.md)\n- Old lesson on [Introduction to UIKit](https:\/\/github.com\/joybob22\/Mtech-Lessons\/blob\/Unit-2\/Unit%202\/7%20-%20Intro%20to%20UIKit.md)",
+    "id" : "243277A1-2906-4AC7-9732-45DE95F7FB27",
+    "lessonBody" : "Cover _Swift Fundamentals 1.9: Interface Builder Basics_ and _2.8: Introduction to UIKit_\n\n**Suggested Activities:**\n- Drill students on creating @IBOutlets and @IBActions; have them practice disconnecting them\n- Show students how to cause common errors, especially `'NSInvalidArgumentException', unrecognized selector sent to instance` and `NSUnknownKeyException', reason: '[ setValue:forUndefinedKey:]: this class is not key value coding-compliant for the key [key]`, caused by broken outlet connections.",
+    "lessonID" : "ST15",
+    "lessonName" : "Interface Builder Basics, Introduction to UIKit",
+    "mainObjective" : "",
+    "objectives" : [
+      "I am able to define what a View is and identify commonly used Views in iOS apps.",
+      "I am able to create an Interface Builder Outlet (@IBOutlet or just Outlet) and describe its purpose.",
+      "I am able to create an Interface Builder Action (@IBAction or just Action) and describe its purpose.",
+      "I am able to open a Storyboard in an Xcode project and describe what it's for.",
+      "I am able to open the Interface Builder's Library and use it to add elements, such as text, buttons, etc, to a Storyboard.",
+      "I am able to change the properties of a UI element, both programmatically (in code) and using the Inspector.",
+      "I am able to define what a Control is and identify commonly used Controls in iOS apps.",
+      "I am able to define what a UIViewController class is and what it is used for."
+    ],
+    "readingDue" : "",
+    "schedule" : [
+      {
+        "endTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 30
+        },
+        "task" : "Code Challenge"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "task" : "Code Challenge Solution"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "task" : "Lecture"
+      },
+      {
+        "endTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "task" : "Code Examples"
+      },
+      {
+        "endTime" : {
+          "hour" : 10,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "task" : "Complete Labs"
+      }
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "BE4EC366-B3EE-4C62-8CEB-C10EF222F994",
+    "lessonBody" : "",
+    "lessonID" : "ST16",
+    "lessonName" : "UIKit Crash Course",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "13B56ED3-35C1-4825-BC60-94B306673265",
+    "lessonBody" : "- Cover [SwiftUI - Integrating UIKit.key](.\/Materials\/SwiftUI\/SwiftUI%20-%20Animations.keyMaterials\/SwiftUI\/SwiftUI%20-%20Integrating%20UIKit)",
+    "lessonID" : "ST17",
+    "lessonName" : "Integrating SwiftUI & UIKit",
+    "mainObjective" : "",
+    "objectives" : [
+      "I can state some common reasons for integrating UIKit views into SwiftUI and vice versa",
+      "I can wrap a UIKit view in a UIViewRepresentable structure to make it usable in SwiftUI",
+      "I can wrap a SwiftUI view in a UIHostingController to make it usable in UIKit",
+      "I can state best practice for integrating these two libraries"
+    ],
+    "readingDue" : "",
+    "schedule" : [
+      {
+        "endTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 30
+        },
+        "task" : "Code Challenge"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "task" : "Code Challenge Solution"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "task" : "Lecture"
+      },
+      {
+        "endTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "task" : "Code Examples"
+      },
+      {
+        "endTime" : {
+          "hour" : 10,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "task" : "Complete Labs"
+      }
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "377CE845-01D0-46EC-8AA6-D278AAC1B3BC",
+    "lessonBody" : "- Cover [TDD - What is TDD, Red-Green-Refactor.key](.\/Materials\/Test%20Driven%20Development\/TDD%20-%20What%20is%20TDD%2C%20Red-Green-Refactor.key)\n\nSuggested Activities:\n- Teacher can go through the steps of the lab as a whole class, using the `Person` examples in the slides, then ask them to do it again in their pairs with a different model object.\n- Consider simplifying the lab by giving students a specific model object to build in their pairs (other than the `Person` example)",
+    "lessonID" : "ST18",
+    "lessonName" : "Unit Testing & TDD Overview",
+    "mainObjective" : "",
+    "objectives" : [
+      "I can describe the Test-Driven Development methodology and why it is useful for individuals and companies",
+      "I can describe the (minor) difference between Test-first and Test-driven development",
+      "I can add tests to an Xcode project using the `XCTest` framework",
+      "I can define the term _assertion_ in the context of testing and create assertions",
+      "I can define the _Red\/Green\/Refactor_ cycle and use it to guide my test-driven development",
+      "I can use Test-Driven Development to write tests, then code that passes those tests, through the entire development process"
+    ],
+    "readingDue" : "",
+    "schedule" : [
+      {
+        "endTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 30
+        },
+        "task" : "Code Challenge"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "task" : "Code Challenge Solution"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "task" : "Lecture"
+      },
+      {
+        "endTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "task" : "Code Examples"
+      },
+      {
+        "endTime" : {
+          "hour" : 10,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "task" : "Complete Labs"
+      }
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "D6A4DF3F-7B9A-4BE8-8C60-B837B67A1702",
+    "lessonBody" : "- Cover [TDD - Fakes, Mocks, and Stubs.key](.\/Materials\/Test%20Driven%20Development\/TDD%20-%20Fakes,%20Mocks,%20and%20Stubs.key)\n\nSuggested Activities:\n- Emphasize for students that the subtle differences between these terms aren't as important as having the tools available.\n- Review the different applications of the three and why each are useful.",
+    "lessonID" : "ST19",
+    "lessonName" : "Dependency Injection for Testing",
+    "mainObjective" : "",
+    "objectives" : [
+      "I can describe the problem with using real network calls and databases in my tests",
+      "I can state what a _Test Double_ is and how it solves that problem",
+      "I can define what a _fake_ is and implement one in my code",
+      "I can define what a _mock_ is and implement one in my code",
+      "I can define what a _stub_ is and implement one in my code"
+    ],
+    "readingDue" : "Review lesson slides",
+    "schedule" : [
+      {
+        "endTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 30
+        },
+        "task" : "Code Challenge"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "task" : "Code Challenge Solution"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "task" : "Lecture"
+      },
+      {
+        "endTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "task" : "Code Examples"
+      },
+      {
+        "endTime" : {
+          "hour" : 10,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 9,
+          "minute" : 30
+        },
+        "task" : "Complete Labs"
+      }
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "2093BDE4-317F-40CA-95AC-5D4C41F6E6B5",
+    "lessonBody" : "",
+    "lessonID" : "ST20",
+    "lessonName" : "Advanced Testing",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "Review lesson slides",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "838CBDF3-C4C5-4091-B912-07563BBBA00F",
+    "lessonBody" : "",
+    "lessonID" : "FA01",
+    "lessonName" : "Introduce Tech Social Media App Project",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "83AAFBDE-7C78-4197-909A-D08229F8534E",
+    "lessonBody" : "",
+    "lessonID" : "FA02",
+    "lessonName" : "Tech Social Media App Project",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "FE910ED4-AD5B-4D59-B1FB-DC40938D17DA",
+    "lessonBody" : "",
+    "lessonID" : "FA03",
+    "lessonName" : "Tech Social Media App Project",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "B9A761D2-C49A-4305-BF9E-ADB8A3D17A40",
+    "lessonBody" : "",
+    "lessonID" : "FA04",
+    "lessonName" : "Tech Social Media App Project",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "281310E3-BF1A-4BBF-8BED-75BFD75A2CAB",
+    "lessonBody" : "- Cover [Fishing for Frameworks.key](.\/Fishing%20for%20Frameworks.key)\n- Introduce [Capstone Pitch Worksheet](.\/Personal%20Capstone%20Pitch.pages)\n\n# Labs\n\n- Complete the presentation outlined in [Fishing for Frameworks.key](.\/Fishing%20for%20Frameworks.key); presentation template is [here](.\/Framework%20Research%20and%20Implementation%20Project%20Slide%20Template.key)\n- Begin [Capstone Pitch Worksheet](.\/Personal%20Capstone%20Pitch.pages); due first day of Personal Capstone unit",
+    "lessonID" : "FA05",
+    "lessonName" : "Fishing for Frameworks",
+    "mainObjective" : "",
+    "objectives" : [
+      "I can independently research and implement any Framework by reading the documentation and creating a sample project"
+    ],
+    "readingDue" : "",
+    "schedule" : [
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 30
+        },
+        "task" : "Code Challenge"
+      },
+      {
+        "endTime" : {
+          "hour" : 9,
+          "minute" : 0
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "task" : "Lecture"
+      },
+      {
+        "endTime" : {
+          "hour" : 10,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 9,
+          "minute" : 0
+        },
+        "task" : "Complete Labs"
+      }
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "23DB24CD-51F5-48BB-AB70-9B1CD1429A8E",
+    "lessonBody" : "",
+    "lessonID" : "FA06",
+    "lessonName" : "Tech Social Media App Project",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "CA29BB8F-7FC9-4F21-8DD7-8F357F285382",
+    "lessonBody" : "",
+    "lessonID" : "FA07",
+    "lessonName" : "Tech Social Media App Project",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "B5DE3A09-3A2C-4F8A-A5FC-DC04E23C4EE3",
+    "lessonBody" : "",
+    "lessonID" : "FA08",
+    "lessonName" : "Tech Social Media App Project",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "1831FDB5-1693-4AC1-94F1-515965847D1F",
+    "lessonBody" : "",
+    "lessonID" : "FA09",
+    "lessonName" : "Tech Social Media App Project",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "7FDFEC4B-5F09-453F-93F3-4E91614AC10C",
+    "lessonBody" : "",
+    "lessonID" : "FA10",
+    "lessonName" : "Tech Social Media App Project",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "9911308C-EBF4-4AD1-B92C-ED91B6317543",
+    "lessonBody" : "",
+    "lessonID" : "FA11",
+    "lessonName" : "Tech Social Media App Project",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "799C8F2E-2AEB-4E18-89C2-A4289B2A4E01",
+    "lessonBody" : "",
+    "lessonID" : "FA12",
+    "lessonName" : "Tech Social Media App Project",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "F5C9740B-E0BE-456A-B5DE-109413A59035",
+    "lessonBody" : "",
+    "lessonID" : "FA13",
+    "lessonName" : "Tech Social Media App Project DUE TODAY",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "Tech Social Media App DUE",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "9F60A3E6-3E98-4366-9EB5-9121CFA9C035",
+    "lessonBody" : "",
+    "lessonID" : "FA14",
+    "lessonName" : "Resume Prep",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "65F96CA7-0241-41B6-B978-9A93DDB1344E",
+    "lessonBody" : "",
+    "lessonID" : "FA15",
+    "lessonName" : "Resume Prep & LinkedIn",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "Resume Due, LinkedIn Due",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "199EAF2E-7F95-4104-A815-04951BE6B325",
+    "lessonBody" : "",
+    "lessonID" : "FA16",
+    "lessonName" : "Job Search Prep",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "BBA20274-908C-4DF0-BC40-D68F73A9276A",
+    "lessonBody" : "",
+    "lessonID" : "FA17",
+    "lessonName" : "Interview Prep",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "7CE7F3A8-1EA8-4241-850E-21284C76A012",
+    "lessonBody" : "",
+    "lessonID" : "FA18",
+    "lessonName" : "Code Challenge and Mock Interviews",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "7D72B06E-8640-48CE-A551-AD7C07810D1C",
+    "lessonBody" : "",
+    "lessonID" : "FA19",
+    "lessonName" : "Code Challenge and Mock Interviews",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "EB5535AE-EE0E-4138-BA78-57081D161A06",
+    "lessonBody" : "",
+    "lessonID" : "FA20",
+    "lessonName" : "Code Challenge and Mock Interviews",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "All Labs Due - Drop Deadline",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "FA0465D4-28D5-4DC0-A816-20268129353D",
+    "lessonBody" : "- Students should present their [personal capstone pitch](..\/5%20-%20Full%20App%20Development\/Personal%20Capstone%20Pitch.pages)\n- Direct students to begin work on designing their app (Figma, wireframe, etc), due in 2 days.",
+    "lessonID" : "PC01",
+    "lessonName" : "Capstone Pitches",
+    "mainObjective" : "",
+    "objectives" : [
+      "I can create an app with a clear vision of its usefulness and design"
+    ],
+    "readingDue" : "Capstone Pitch Due",
+    "schedule" : [
+      {
+        "endTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 30
+        },
+        "task" : "Code Challenge"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 50
+        },
+        "task" : "Code Challenge Solution"
+      },
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 45
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 0
+        },
+        "task" : "Pitches"
+      },
+      {
+        "endTime" : {
+          "hour" : 10,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 9,
+          "minute" : 0
+        },
+        "task" : "Begin work on Capstone"
+      }
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "BD2097B4-E915-4B5D-8C23-12B6099B5F63",
+    "lessonBody" : "",
+    "lessonID" : "PC02",
+    "lessonName" : "Personal Capstone Planning",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "repeatUntilDay" : "PC03",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "0FD66727-C677-4D5D-A368-FB8129D6D272",
+    "lessonBody" : "",
+    "lessonID" : "PC03",
+    "lessonName" : "Personal Capstone Planning",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "Capstone Plan Due",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "77076A57-429F-48D8-A31F-240E1DAEDF10",
+    "lessonBody" : "",
+    "lessonID" : "PC04",
+    "lessonName" : "Software Release Cycle",
+    "mainObjective" : "use Apple's App Store Connect platform and other CI\/CD tools to efficiently publish apps\nI can identify the standard terminology of the development cycle (alpha, semantic versioning, CI\/CD)",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "8921A9BB-18CF-49E8-AE19-0578E03F63C8",
+    "lessonBody" : "",
+    "lessonID" : "PC05",
+    "lessonName" : "Personal Capstone Work Time",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "repeatUntilDay" : "PC19",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "BEC21497-E03D-4D2B-B63F-F793472F6055",
+    "lessonBody" : "",
+    "lessonID" : "PC06",
+    "lessonName" : "Personal Capstone Work Time",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "2E7FB365-E32C-4522-A651-870BD18888DB",
+    "lessonBody" : "",
+    "lessonID" : "PC07",
+    "lessonName" : "Personal Capstone Work Time",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "28B532B7-AA12-4552-AC9D-98836CB94A19",
+    "lessonBody" : "",
+    "lessonID" : "PC08",
+    "lessonName" : "Personal Capstone Work Time",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "95BACF8D-3AF6-4B44-BBB4-850790D0A41D",
+    "lessonBody" : "",
+    "lessonID" : "PC09",
+    "lessonName" : "Personal Capstone Work Time",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "0B1434AD-D6E1-4308-8A3A-85975314D129",
+    "lessonBody" : "",
+    "lessonID" : "PC10",
+    "lessonName" : "Personal Capstone Work Time",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "56E1E7F3-1345-475F-A0A9-C0AAA32AA9D1",
+    "lessonBody" : "",
+    "lessonID" : "PC11",
+    "lessonName" : "Personal Capstone Work Time",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "0910C356-170E-4AD7-B8B2-06B08116DED8",
+    "lessonBody" : "",
+    "lessonID" : "PC12",
+    "lessonName" : "Personal Capstone Work Time",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "5D43757D-88D2-4C75-8E30-905E48B2D9C0",
+    "lessonBody" : "",
+    "lessonID" : "PC13",
+    "lessonName" : "Personal Capstone Work Time",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "EE031A2F-278F-44E7-A7CD-7D0089223E6B",
+    "lessonBody" : "",
+    "lessonID" : "PC14",
+    "lessonName" : "Personal Capstone Work Time",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "85AEAE2D-E2DF-453D-88F8-749F2CB97EE3",
+    "lessonBody" : "",
+    "lessonID" : "PC15",
+    "lessonName" : "Personal Capstone Work Time",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "695D74E8-915E-4DD0-9768-6E78728C48BC",
+    "lessonBody" : "",
+    "lessonID" : "PC16",
+    "lessonName" : "Personal Capstone Work Time",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "98D46E2B-93FC-4798-AFC2-66F49D9F600A",
+    "lessonBody" : "",
+    "lessonID" : "PC17",
+    "lessonName" : "Personal Capstone Work Time",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "F59B4C65-37EB-4062-9B3A-CB79200775FA",
+    "lessonBody" : "",
+    "lessonID" : "PC18",
+    "lessonName" : "Personal Capstone Work Time",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "5C1C6DDA-9BF6-436C-A580-C397BDF33094",
+    "lessonBody" : "",
+    "lessonID" : "PC19",
+    "lessonName" : "Personal Capstone Work Time",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "F8CF1559-E0FC-4644-9BC8-7F0836AC12E5",
+    "lessonBody" : "",
+    "lessonID" : "PC20",
+    "lessonName" : "Personal Capstone Work Time, check off Beta",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "Capstone Beta Due",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "69AFD862-1671-4778-B1B6-E003F6A887DC",
+    "lessonBody" : "",
+    "lessonID" : "PC21",
+    "lessonName" : "Personal Capstone TestFlight Tutorial, Review Testing Assignment Requirements",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "2DE9B069-5212-416D-A7F3-A1FC031EFA41",
+    "lessonBody" : "",
+    "lessonID" : "PC22",
+    "lessonName" : "Personal Capstone - Prepare to Present",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "repeatUntilDay" : "PC24",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "5E742EF4-7D0B-451F-9AB3-AA00E0ED3FD1",
+    "lessonBody" : "",
+    "lessonID" : "PC23",
+    "lessonName" : "Personal Capstone - Prepare to Present",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "D5022F39-D0BE-457D-97F2-BFC45E6B082A",
+    "lessonBody" : "",
+    "lessonID" : "PC24",
+    "lessonName" : "Personal Capstone - Prepare to Present",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "17A5DB2C-AFE3-45BC-BDD5-242477194E1A",
+    "lessonBody" : "",
+    "lessonID" : "PC25",
+    "lessonName" : "Personal Capstone - Check Off TestFlight Tests",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "Capstone TestFlight Tests Due",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "CC977B5B-CEBF-4A2F-AF62-660775D0ABFC",
+    "lessonBody" : "",
+    "lessonID" : "PC26",
+    "lessonName" : "Present Personal Capstone to Fall Cohort",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "Capstone Presentation DUE - Drop Deadline",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "6D936CC8-2169-4698-8A3F-D323C7D1C74A",
+    "lessonBody" : "Outline\n\n-   Go through [Collaborating with git and github slides](.\/Collaborating%20with%20git%20and%20GitHub.key)\n-   Review [Group Capstone Rubric](.\/Group%20Capstone%20Rubric.md)\n-   Get into groups, pick your project, start planning.",
+    "lessonID" : "GC01",
+    "lessonName" : "Git and GitHub",
+    "mainObjective" : "",
+    "objectives" : [
+      "Review best practices for collaborating using Git and GitHub"
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "450D64C4-5712-4724-8BA0-5659E1B33601",
+    "lessonBody" : "- Cover [Agile and Scrum.key](.\/Agile%20and%20Scrum.key)\n  - Goal is just a basic introduction to the terms and structure.\n  - Students do not need to use Scrum Agile to manage their group capstone, but need to have a firm understanding of what it is and what it would look like if they were going to.\n\nSuggested Activities:\n- Have students participate in a role-play for each Scrum ceremony for an imaginary company working on an example app\n- Give students a narrative description of what your experience with Scrum has been like\/currently is like. (\"At my company we do stand ups at 7:30, they're usually very boring, our sprints are 3 weeks, we come with an agenda...\" etc.)",
+    "lessonID" : "GC02",
+    "lessonName" : "Agile and Scrum",
+    "mainObjective" : "",
+    "objectives" : [
+      "I can explain what the four core values and twelve principles of Agile mean and what they look like in practice",
+      "I can describe the three primary roles used in Scrum project management",
+      "I can give a basic explanation of Scrum's meeting types (AKA \"ceremonies\")",
+      "I can give a basic definition of time boxing",
+      "I can state what some of the project management tools of Agile\/Scrum are"
+    ],
+    "readingDue" : "",
+    "schedule" : [
+      {
+        "endTime" : {
+          "hour" : 8,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 30
+        },
+        "task" : "Lecture"
+      },
+      {
+        "endTime" : {
+          "hour" : 10,
+          "minute" : 30
+        },
+        "startTime" : {
+          "hour" : 8,
+          "minute" : 30
+        },
+        "task" : "Work on Group Capstone"
+      }
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "640D6F56-A6F7-4689-9AD3-8F0B4BA42782",
+    "lessonBody" : "## Goal: Demo for students what a Trello board looks like by creating a backlog, then a roleplaying a sprint planning meeting\n\n## Notes\n\nWe're emphasizing Trello for this lesson as it seems decently likely that students will encounter it in the industry. If the instructor would prefer to have students use GitHub Projects\/JIRA\/something else, feel free.\n\nStudents are not required to create a project board for their group projects (though they can if they like). The main goal is to feel confident when joining a real Scrum\/Agile team in the future.\n\n## Outline\n\n1. Give a brief overview of Trello.\n2. Walk teams through how to create a Scrum board, how to organize it, etc. Feel free to use one of the Group Capstone Projects as an example project, or make one up.\n3. With a few volunteers students through a Sprint planning meeting.\n4. Review the role of these techniques in the industry and why it's important for them to be familiar.",
+    "lessonID" : "GC03",
+    "lessonName" : "Project Management and Sprint Planning",
+    "mainObjective" : "",
+    "objectives" : [
+      "I can use Trello or a similar management program to create and refine a Scrum board and project backlog",
+      "I can participate in a Sprint planning meeting, including making a Sprint backlog"
+    ],
+    "readingDue" : "",
+    "schedule" : [
+      {
+        "endTime" : {
+          "hour" : 9,
+          "minute" : 0
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 30
+        },
+        "task" : "Guided Work"
+      }
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "5E598885-572F-4EEC-B3E9-9C5D09D19E5D",
+    "lessonBody" : "**Goal:** Review [SOLID.key](https:\/\/github.com\/MTechMobileDevelopment\/Mobile-Development-Lesson-Plans\/blob\/master\/2%20-%20Tables%20and%20Persistence\/Materials\/SOLID.key) or another resource on SOLID.\n\nHelp students one-on-one to identify what's needed for their refactoring tickets.",
+    "lessonID" : "GC04",
+    "lessonName" : "SOLID Review",
+    "mainObjective" : "",
+    "objectives" : [
+      "I can implement the principles of SOLID to improve my group's capstone's code base."
+    ],
+    "readingDue" : "Group Capstone Plan Due",
+    "schedule" : [
+      {
+        "endTime" : {
+          "hour" : 9,
+          "minute" : 0
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 30
+        },
+        "task" : "Guided Work"
+      }
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "8E657850-0B23-4DB8-8A5C-C61CB1A393E0",
+    "lessonBody" : "**Goal:** Walk students through a daily stand-up.\n\n- Teams will practice doing daily stand-ups by taking turns while other groups watch, using their projects as a basis. Instructor will act as the group's facilitator.\n\n- Students don't need to rigorously enact a true Scrum stand up; the goal is just to familiarize them with the terminology and encourage them to meet every morning before working on their projects independently.",
+    "lessonID" : "GC05",
+    "lessonName" : "Daily Stand-ups",
+    "mainObjective" : "",
+    "objectives" : [
+      "I can participate in a daily stand-up meeting."
+    ],
+    "readingDue" : "",
+    "schedule" : [
+      {
+        "endTime" : {
+          "hour" : 9,
+          "minute" : 0
+        },
+        "startTime" : {
+          "hour" : 7,
+          "minute" : 30
+        },
+        "task" : "Guided Work"
+      }
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "3B65EF45-D9CC-4F3C-B8B3-9D4D24894F44",
+    "lessonBody" : "Collaborate on your Group Capstone today.",
+    "lessonID" : "GC06",
+    "lessonName" : "Group Capstone",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "repeatUntilDay" : "GC26",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "41BF2531-BE16-454C-9DEF-4DBF1E607DE6",
+    "lessonBody" : "",
+    "lessonID" : "GC07",
+    "lessonName" : "Group Capstone",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "14A8D64C-503B-40CE-AC50-57A7607C2389",
+    "lessonBody" : "",
+    "lessonID" : "GC08",
+    "lessonName" : "Group Capstone",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "95340A9E-C777-423D-9FFD-1B9022A37A36",
+    "lessonBody" : "",
+    "lessonID" : "GC09",
+    "lessonName" : "Group Capstone: Accessibility",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "20524102-C25F-4A3F-9D17-39E37B876F64",
+    "lessonBody" : "",
+    "lessonID" : "GC10",
+    "lessonName" : "Group Capstone: Localization",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "1D84D30C-9FF7-4F2A-8348-C435636480F8",
+    "lessonBody" : "",
+    "lessonID" : "GC11",
+    "lessonName" : "Group Capstone",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "F69DA76C-F3B5-4E23-93BD-58BBC094141D",
+    "lessonBody" : "",
+    "lessonID" : "GC12",
+    "lessonName" : "Group Capstone",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "266E66E8-C448-4251-A7AC-F3C59ECF57E7",
+    "lessonBody" : "",
+    "lessonID" : "GC13",
+    "lessonName" : "Group Capstone",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "794E88E7-858B-48C4-9F2A-4A9E2D1720F0",
+    "lessonBody" : "",
+    "lessonID" : "GC14",
+    "lessonName" : "Group Capstone",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "9DF941DC-91D9-4755-BDC3-D5D70A8C7E66",
+    "lessonBody" : "",
+    "lessonID" : "GC15",
+    "lessonName" : "Group Capstone",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "86DAED02-DF40-4937-B1D1-579895775746",
+    "lessonBody" : "",
+    "lessonID" : "GC16",
+    "lessonName" : "Group Capstone",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "9F04962E-C91A-46E2-BE93-C3B2DF0757A3",
+    "lessonBody" : "",
+    "lessonID" : "GC17",
+    "lessonName" : "Group Capstone",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "061478C0-9D11-4590-8AFA-19465F3D9B59",
+    "lessonBody" : "",
+    "lessonID" : "GC18",
+    "lessonName" : "Group Capstone",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "F8D06CC3-71B1-41D8-9225-381789FDD0D7",
+    "lessonBody" : "",
+    "lessonID" : "GC19",
+    "lessonName" : "Group Capstone",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "BE8C16EA-A92A-489A-BE5A-16460D7069F2",
+    "lessonBody" : "",
+    "lessonID" : "GC20",
+    "lessonName" : "Group Capstone",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "A174B419-8D5A-40D2-9D90-808AA1EB1F6C",
+    "lessonBody" : "",
+    "lessonID" : "GC21",
+    "lessonName" : "Group Capstone",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "Group Capstone Alpha Due",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "45F25651-6969-422D-8251-023DD044DA2C",
+    "lessonBody" : "",
+    "lessonID" : "GC22",
+    "lessonName" : "Group Capstone - Peer Testing",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "5765B2A4-53D2-4B9E-8B45-3A1A7C83399D",
+    "lessonBody" : "",
+    "lessonID" : "GC23",
+    "lessonName" : "Group Capstone - Peer Testing & Implement final changes",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "579B1F8F-3A38-421F-B8F5-912A58F81B93",
+    "lessonBody" : "",
+    "lessonID" : "GC24",
+    "lessonName" : "Group Capstone - Implement Final Changes",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "C29331CE-53B8-49F1-B616-525627809174",
+    "lessonBody" : "",
+    "lessonID" : "GC25",
+    "lessonName" : "Group Capstone - Implement Final Changes",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "Group Capstone Beta Due",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "0CD5456A-EE4C-4D57-BFD6-318FCBFD0365",
+    "lessonBody" : "",
+    "lessonID" : "GC26",
+    "lessonName" : "Group Capstone",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "",
+    "schedule" : [
+
+    ]
+  },
+  {
+    "additionalResources" : "",
+    "id" : "72B52F2F-98FB-4D16-886C-2550861F2596",
+    "lessonBody" : "",
+    "lessonID" : "GC27",
+    "lessonName" : "Group Capstone Presentations",
+    "mainObjective" : "",
+    "objectives" : [
+
+    ],
+    "readingDue" : "Group Capstone DUE, Personal Capstone Published to App Store DUE",
+    "schedule" : [
+
+    ]
+  }
+]

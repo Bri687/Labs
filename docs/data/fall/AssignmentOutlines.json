@@ -1,0 +1,970 @@
+[
+  {
+    "assignment" : {
+      "assignDay" : "",
+      "dueDay" : "",
+      "id" : "D304AAB5-82E0-4CF3-938E-AB327D90F31C",
+      "location" : "",
+      "name" : "",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "SF02",
+      "dueDay" : "SF03",
+      "id" : "05A2B92D-0536-4C00-B9F3-561DDD77E737",
+      "location" : "pg 46",
+      "name" : "Constants and Variables",
+      "type" : "lab"
+    },
+    "body" : "Complete [Lab - Constants and Variables.playground](openany:\/\/file\/open?path=~\/Developer\/iOS%20Development\/Textbook%20Files\/1%20-%20Getting%20Started\/2%20-%20Constants,%20Variables,%20and%20Data%20Types\/Lab%20-%20Constants%20and%20Variables.playground)\n\n## Rubric\n\nAll lab exercise are complete and correct."
+  },
+  {
+    "assignment" : {
+      "assignDay" : "SF03",
+      "dueDay" : "SF04",
+      "id" : "1F2B12DD-BF66-44E2-992B-725AA0602BA0",
+      "location" : "pg 56",
+      "name" : "Operators",
+      "type" : "lab"
+    },
+    "body" : "Complete [Lab - Constants and Variables.playground](openany:\/\/file\/open?path=~\/Developer\/iOS%20Development\/Textbook%20Files\/1%20-%20Getting%20Started\/2%20-%20Constants,%20Variables,%20and%20Data%20Types\/Lab%20-%20Constants%20and%20Variables.playground)\n\n## Rubric\n\nAll lab exercises are complete and correct."
+  },
+  {
+    "assignment" : {
+      "assignDay" : "SF03",
+      "dueDay" : "SF04",
+      "id" : "E202BC1B-6B7E-48AF-A695-9B416628FF26",
+      "location" : "pg 72",
+      "name" : "Control Flow",
+      "type" : "lab"
+    },
+    "body" : "Complete [Lab - Control Flow.playground](openany:\/\/file\/open?path=~\/Developer\/iOS%20Development\/Textbook%20Files\/1%20-%20Getting%20Started\/4%20-%20Control%20Flow\/Lab%20-%20Control%20Flow.playground)\n\n## Rubric\n\nAll lab exercises are complete and correct."
+  },
+  {
+    "assignment" : {
+      "assignDay" : "SF04",
+      "dueDay" : "SF05",
+      "id" : "2DEF1DC3-3DE0-40F1-B23E-2430BECC0F20",
+      "location" : "pg 191",
+      "name" : "Strings",
+      "type" : "lab"
+    },
+    "body" : "Complete [Lab - Strings.playground](openany:\/\/file\/open?path=~\/Developer\/iOS%20Development\/Textbook%20Files\/2%20-%20Introduction%20to%20UIKit\/1%20-%20Strings\/Lab%20-%20Strings.playground)\n\n## Rubric\n\nAll lab exercises are complete and correct."
+  },
+  {
+    "assignment" : {
+      "assignDay" : "SF05",
+      "dueDay" : "SF06",
+      "id" : "D4DA9120-2DEF-4C25-BD2C-C92DA0AA773F",
+      "location" : "",
+      "name" : "Functions",
+      "type" : "lab"
+    },
+    "body" : "Complete [Lab - Functions.playground](openany:\/\/file\/open?path=~\/Developer\/iOS%20Development\/Textbook%20Files\/2%20-%20Introduction%20to%20UIKit\/2%20-%20Functions\/Lab%20-%20Functions.playground)\n\n## Rubric\n\nAll lab exercises are complete and correct."
+  },
+  {
+    "assignment" : {
+      "assignDay" : "SF06",
+      "dueDay" : "SF06",
+      "id" : "C98CBCE6-DD6E-4947-A0B2-7F2B1E7AA6DD",
+      "location" : "",
+      "name" : "Git Notes",
+      "type" : "lab"
+    },
+    "body" : "Today's lab is simply to begin taking notes on Git. Review your notes with an instructor to receive credit.\n\nRubric: No specific note taking format is required, just make sure you have enough to refer back to when using git down the road."
+  },
+  {
+    "assignment" : {
+      "assignDay" : "SF07",
+      "dueDay" : "SF08",
+      "id" : "70C266A7-B935-4696-8BCD-E7C3569595CF",
+      "location" : "",
+      "name" : "#1 - Mad Lib Generator",
+      "type" : "project"
+    },
+    "body" : "For this project, you will create a Swift Playground that generates a randomized Mad Lib. If you're unfamililar, a quick Google search will show you what they are and examples of similar apps. Follow the steps below to complete your project.\n\n## Instructions\n\n1. Create a new Playground titled MadLibGenerator.\n2. Create a function called generateMadLib() that returns a String. We will add its parameters in a moment.\n3. Find, write, or generate a one paragraph story for which you will have your users fill in blanks. In your function, return this paragraph as a String.\n4. Use String Interpolation to fill the blanks in your paragraph with parameters from your function signature, where users can input their own words. For example, you might delete an existing noun and have a parameter called noun of type String to replace it. If you have more than one noun\/adjective\/etc, you can add a number to the end (noun1, noun2, etc).\n5. Test your function. By calling generateMadLib(noun:,adjective:) (or whatever parameters you wound up with), you should get back your paragraph with the chosen words substituted.\n6. We should make sure the user has entered valid strings so their mad lib turns out properly. Using an if-else statement, make sure that all input parameters are not empty strings, and if they are, return a String that says \"Invalid Input\".\n7. For the final step, it might be more interesting if the user gets back a random story each time. At the top of your function, add a constant called randomStorySelection of type Int, and assign it a random number from 1 to 3 by setting it to Int.random(in: 1...3).\n8. Add a switch statement that switches on randomStorySelection to choose which story to return, then add two new stories in addition to your first. Without more advanced techniques or splitting into multiple functions, these two additional stories will need to have the same number and types of blanks to fill in.\n9. Test your Mad Lib generator by having a partner call your function in your playground and see the result.\n\n## Black Diamond\n\nIt might be even more fun if the order of the different words is randomized as well, so that, for instance, the nouns a user provided may appear in any order in the story. Find a way to randomize this order.\n\n## Rubric\n\n- Student has just one function that takes several parts of speech as input and generates three or more randomized Mad Lib stories as output.\n- Passing invalid input (i.e. empty strings) returns an error string."
+  },
+  {
+    "assignment" : {
+      "assignDay" : "SF09",
+      "dueDay" : "SF10",
+      "id" : "366467C4-6CBB-4868-B562-37CB38B13514",
+      "location" : "pg 232",
+      "name" : "Structures",
+      "type" : "lab"
+    },
+    "body" : "Complete [Lab - Structures.playground](openany:\/\/file\/open?path=~\/Developer\/iOS%20Development\/Textbook%20Files\/2%20-%20Introduction%20to%20UIKit\/3%20-%20Structures\/Lab%20-%20Structures.playground)\n\n## Rubric\n\nAll lab exercises are complete and correct."
+  },
+  {
+    "assignment" : {
+      "assignDay" : "SF10",
+      "dueDay" : "SF11",
+      "id" : "1CF87003-1B44-4F0E-9EF1-1A9CC146EFBF",
+      "location" : "pg 249",
+      "name" : "Classes & Inheritance",
+      "type" : "lab"
+    },
+    "body" : "Complete [Lab - Classes.playground](openany:\/\/file\/open?path=~\/Developer\/iOS%20Development\/Textbook%20Files\/2%20-%20Introduction%20to%20UIKit\/4%20-%20Classes%20and%20Inheritance\/Lab%20-%20Classes.playground)\n\n## Rubric\n\nAll lab exercises are complete and correct."
+  },
+  {
+    "assignment" : {
+      "assignDay" : "SF12",
+      "dueDay" : "SF12",
+      "id" : "A5BF1A15-8B11-4DD4-9049-FC95279AA16C",
+      "location" : "",
+      "name" : "Classes & Structs Presentation",
+      "type" : "lab"
+    },
+    "body" : "# Structs and Classes Presentation Requirements\n\n## Objectives\n\n- Review structs and classes\n- Learn from each other on what the difference is between a struct and a class.\n\n## Details:\n\n- You will present in groups of 2-3. Create a slideshow with a minimum length of five slides. Explain the following concepts:\n    - What a Struct is\n    - What a Class is\n    - What do they have in common?\n    - How are they different?\n    - What is the difference between a Reference type and a Value type?\n    - What are some examples, metaphors, or visuals that help explain the difference?\n    \n- You will not be scored on presentation skills or design, but you should put in an effort to polish your presentation in the limited time you have.\n- If your presentation has incorrect information, we will pause your presentation, fix it, and then continue to present.\n\n## Notes:\n\n- Here is a review of [Structs](https:\/\/github.com\/joybob22\/Mtech-Lessons\/blob\/Unit-2\/Unit%202\/3%20-%20Structures.md)\n- Here is a review of [Classes](https:\/\/github.com\/joybob22\/Mtech-Lessons\/blob\/Unit-2\/Unit%202\/4%20-%20Classes%20and%20Inheritance.md)"
+  },
+  {
+    "assignment" : {
+      "assignDay" : "SF13",
+      "dueDay" : "SF14",
+      "id" : "AAB64869-884C-44F3-8B48-825E764E03B3",
+      "location" : "pg 108",
+      "name" : "Debug Your First App",
+      "type" : "lab"
+    },
+    "body" : "Open [FirstTimeDebugging.xcodeproj](openany:\/\/file\/open?path=~\/Developer\/iOS%20Development\/Textbook%20Files\/1%20-%20Getting%20Started\/6%20-%20Debugging\/lab\/FirstTimeDebugging\/FirstTimeDebugging.xcodeproj) and follow the steps listed on page 108 of your book to complete the lab. \n\n## Rubric\n\n- Project compiles with zero compiler warnings or exceptions.\n- Identical lines of code in **AppDelegate** are removed.\n- ViewController `viewDidLoad()` method has the correct syntax.\n- ViewController `viewDidLoad()` method correctly calls `otherMethod()`"
+  },
+  {
+    "assignment" : {
+      "assignDay" : "SF13",
+      "dueDay" : "SF14",
+      "id" : "0671B6EB-E3ED-4DDA-8474-5FC992FE62B1",
+      "location" : "pg 118",
+      "name" : "Use Documentation",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "SF14",
+      "dueDay" : "SF14",
+      "id" : "D304AAB5-82E0-4CF3-938E-AB327D90F31C",
+      "location" : "pg 475",
+      "name" : "Scope",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "SF15",
+      "dueDay" : "SF15",
+      "id" : "227248BD-63EE-451F-8559-7DB297372B3F",
+      "location" : "pg 263",
+      "name" : "Collections",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "SF16",
+      "dueDay" : "SF17",
+      "id" : "AF668BFF-3E58-4005-B09D-C53AB330E3B6",
+      "location" : "pg 275",
+      "name" : "Loops",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "SF17",
+      "dueDay" : "SF19",
+      "id" : "B2846EEB-0142-42D6-BA91-1CF1B96A9B57",
+      "location" : "",
+      "name" : "#2 - Playlist Manager",
+      "type" : "project"
+    },
+    "body" : "## Playlist Manager\n\nYour task is to build a playlist manager Playground. Using a Song struct and Playlist class, the core of your app will be an array of playlists. The Playlist class should include a minimum of four properties `name`, `author`, `songs`, and `currentlyPlaying`, as well as the following functions:\n\n```swift\n\/\/ Init\ninit()\n\n\/\/ Core mutation\nfunc add(_ song: Song)\nfunc remove(at index: Int)\nfunc clear()\n\n\/\/ Querying \/ reading\nvar count: Int { get }\nfunc allSongs() -> [Song]\nfunc totalDuration() -> Int\nfunc currentSong() -> Song?\n\n\/\/ Playback navigation\nfunc play(at index: Int) -> Song?\nfunc playNext() -> Song?\nfunc playPrevious() -> Song?\n\n\/\/ Shuffle\nfunc shuffle()\n```\n\nWhen \"playing\" a song, you can simply output it to the console.\n## Black Diamond\n\n- Add sorting features that allow users to reorder the playlist by duration, song name, artist name, and any other properties you'd like.\n- Also allow for custom rearranging of the playlist with a function along the lines of `func move(song: Song, to index: Int)`."
+  },
+  {
+    "assignment" : {
+      "assignDay" : "SF19",
+      "dueDay" : "SF20",
+      "id" : "B86531F5-B335-4C8E-B8EA-A048B508A6B5",
+      "location" : "pg 458",
+      "name" : "Type Casting",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "SF20",
+      "dueDay" : "SF22",
+      "id" : "7591F313-31DE-4238-8652-309DCF62314F",
+      "location" : "pg 450",
+      "name" : "Optionals",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "SF22",
+      "dueDay" : "SF23",
+      "id" : "688B1F2C-7B47-4DC3-90B7-973115885BA4",
+      "location" : "pg 467",
+      "name" : "Guard",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "SF22",
+      "dueDay" : "SF23",
+      "id" : "DE470E4C-FDF5-4E87-8C19-6359319B0CD2",
+      "location" : "pg 485",
+      "name" : "Enum",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "SF23",
+      "dueDay" : "SF27",
+      "id" : "C39EF748-D585-4F64-8676-7D5AD1145FF8",
+      "location" : "",
+      "name" : "#3 - Calculator",
+      "type" : "project"
+    },
+    "body" : "Your overall goal is to recreate the functionality of an actual calculator as possible while using functions in the place of buttons. To that end, your mathematical functions must not accept any parameters. Instead, you must have one function for inputting a value, then \"press\" the other functions for adding, subtracting, multiplying, dividing, invert sign (+\/-) and percentage, as well as C\/AC to clear the current value. Use print statements to output the running total of the calculator.\n\n## Black Diamond\n\n- Make a function representing the percent button work as expected\n- Add a UI to this project using SwiftUI"
+  },
+  {
+    "assignment" : {
+      "assignDay" : "SF28",
+      "dueDay" : "SF29",
+      "id" : "7CC110A9-1411-44C5-B7D6-B5FB7705B55A",
+      "location" : "",
+      "name" : "Closures",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "SF28",
+      "dueDay" : "SF29",
+      "id" : "1ECA4FD8-13EB-4E55-989A-E8CF76F5A00E",
+      "location" : "",
+      "name" : "Extensions",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "SF29",
+      "dueDay" : "SF30",
+      "id" : "E9031A71-3566-499A-BE6F-4DE8B1E96603",
+      "location" : "",
+      "name" : "Views",
+      "type" : "lab"
+    },
+    "body" : "Complete [SwiftUITextLab.xcodeproj](openany:\/\/file\/open?path=~\/Developer\/iOS%20Development\/1%20-%20Swift%20Fundamentals\/Assignments\/SwiftUITextLab\/SwiftUITextLab.xcodeproj)\n\n## Instructionsn\n\nYour goal is to create an app that will serve as social media profile. Use Text view modifiers to arrange and style your profile to reflect your unique style.\nSince this assignment will require you to choose custom fonts, you may want to open the Font Book app installed on your Mac, where you can view a list of the fonts available on Mac and iOS by default.\nIf you would like to change the background color of each of these views, you can do so by changing the colors listed in each #Preview macro at the bottom of the page.\n1. Create three structs that conform to View: ProfileView, TopFiveFriendsView, and BlogPostView. This will fix the errors\n2. To see a preview of how each view will look in the app, make sure you have opened your canvas (Option + Command + Return). You can view each struct you've created by clicking on the tabs at the top of the canvas.\n3. Create a profile view with Text elements for each of the following items: Username, Real Name, Home City, and Bio. Style each of them appropriately with custom fonts, font sizes, and colors for each. Feel free to add any additional modifiers as well.\n4. Create a TopFiveFriends view with a list of your friends, ranked in order of favorite to least favorite. (Don't worry, we won't tell them). Use a different font and color for each person, and include an Emoji to represent each one as well.\n5. Create a BlogPostView. Give your blog post a title, a date posted, a body, and a display of number of likes and comments. Once again, style each individually with fonts, font sizes, and colors, and any other modifiers you would like.\n6. Try running the app. You should see all three views embedded in Tabs (the code for this is in SwiftUITextLabApp.swift). You may need to adjust the style slightly to accommodate the Tab Bar at the bottom of the screen.\n\n## Black Diamond\n\n7. Add one or more Image views to each page.\n8. Use Stack views to arrange your content more dynamically.\n\n## Rubric\n\n- App has a profile view with Username, Real Name, Home City, and Bio, appropriately filled out and styled.\n- App has a Top Five Friends screen with emoji, fonts, and colors for each friend.\n- App has a blog post view with a title, a date posted, a body, and a number of likes and comments. All are styled, sized, and colored appropriately."
+  },
+  {
+    "assignment" : {
+      "assignDay" : "SF30",
+      "dueDay" : "SF31",
+      "id" : "E8B5D54B-03A2-40C4-AB1E-E5C7E2E8CBA6",
+      "location" : "",
+      "name" : "View Modifiers",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "SF31",
+      "dueDay" : "SF32",
+      "id" : "D1795C59-E816-4D14-BDC7-4F13F59A517F",
+      "location" : "",
+      "name" : "Stacks & ForEach",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "SF32",
+      "dueDay" : "SF34",
+      "id" : "02ED8DD8-9855-4AA6-8FED-1F8096EBDD5F",
+      "location" : "",
+      "name" : "Property Wrappers",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "SF34",
+      "dueDay" : "SF35",
+      "id" : "D091316F-3BF5-4F00-99F0-E1CBBD278922",
+      "location" : "",
+      "name" : "Buttons",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "SF35",
+      "dueDay" : "SF36",
+      "id" : "417446FB-7859-417E-9833-629277644ACB",
+      "location" : "",
+      "name" : "UI Elements & Controls",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "SF36",
+      "dueDay" : "SF37",
+      "id" : "5D63AEAC-4618-41EF-AC5E-448FBA9A959D",
+      "location" : "",
+      "name" : "List, Form",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "SF37",
+      "dueDay" : "TP01",
+      "id" : "FBCE4D1E-5AB1-4530-B848-5405BAF86F5F",
+      "location" : "",
+      "name" : "#4 - Meet My Family",
+      "type" : "project"
+    },
+    "body" : "## Instructions\n1. Create an app that introduces us to not only yourself, but your family as well. (If needed you can include friends instead\/in addition).\n2. Create a dashboard screen that shows us your family as a whole. Each family member should have a picture and a name.\n3. Tapping on a family member should display a modal sheet with more details on that person. You can choose what details to include.\n4. Once a family member has been viewed, display a green checkmark ✅ next to their name."
+  },
+  {
+    "assignment" : {
+      "assignDay" : "TP01",
+      "dueDay" : "TP02",
+      "id" : "54126825-16DA-4D0A-AE0E-CFB36A65CAA2",
+      "location" : "",
+      "name" : "Subviews",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "TP02",
+      "dueDay" : "TP04",
+      "id" : "D23EE37C-9C60-40F3-8EDA-BA4E6460DE1A",
+      "location" : "",
+      "name" : "Navigation",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "TP04",
+      "dueDay" : "TP06",
+      "id" : "13725F61-2EDE-42EE-BD0E-B7798B50988D",
+      "location" : "",
+      "name" : "#5 - Personality Quiz Part 1",
+      "type" : "project"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "TP06",
+      "dueDay" : "TP07",
+      "id" : "F97E0026-21BE-4737-B64A-3435B213C002",
+      "location" : "",
+      "name" : "SwiftUI App Lifecycle",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "TP07",
+      "dueDay" : "TP09",
+      "id" : "18CCB263-C787-47F8-A67D-D3CB452A7A62",
+      "location" : "",
+      "name" : "MVVM",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "TP09",
+      "dueDay" : "TP10",
+      "id" : "A3B3FB2A-B426-4EF5-A762-141B37C98DBB",
+      "location" : "",
+      "name" : "Imperative vs Declarative",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "TP10",
+      "dueDay" : "TP14",
+      "id" : "7C1B4CA6-7FE9-49F9-9DD2-06CEF4D130D4",
+      "location" : "",
+      "name" : "#6 - Personality Quiz, Part 2",
+      "type" : "project"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "TP14",
+      "dueDay" : "TP20",
+      "id" : "7F41D29A-9DE0-49BA-80D6-104E664DC025",
+      "location" : "",
+      "name" : "#7 - TSMA Layout",
+      "type" : "project"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "TP20",
+      "dueDay" : "TP22",
+      "id" : "CDA39D05-91B8-43A5-931B-1FB2B523A04C",
+      "location" : "pg 30",
+      "name" : "Protocols",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "TP22",
+      "dueDay" : "TP23",
+      "id" : "5B8731A0-4032-487D-B7CD-49CB84DEE756",
+      "location" : "",
+      "name" : "SOLID",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "TP23",
+      "dueDay" : "TP24",
+      "id" : "68C1B33F-6B47-47A0-8C18-F00885381E1A",
+      "location" : "",
+      "name" : "Error Handling",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "TP24",
+      "dueDay" : "TP25",
+      "id" : "075F3844-2FE9-45E0-A3F3-693C85FD6D1A",
+      "location" : "",
+      "name" : "Saving Data",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "TP25",
+      "dueDay" : "TP28",
+      "id" : "A950D2E0-37E5-475F-AE2F-AC33E12E2F66",
+      "location" : "pg 411",
+      "name" : "iTunes Search Part 1",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "TP26",
+      "dueDay" : "ND01",
+      "id" : "F2A825C4-CD22-42BE-A252-3C2216E16E2B",
+      "location" : "pg 438",
+      "name" : "iTunes Search Part 2",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "TP28",
+      "dueDay" : "ND02",
+      "id" : "D8E9C6C5-F9D5-430E-8876-76F4E2A4B74D",
+      "location" : "pg 465",
+      "name" : "iTunes Search Part 3",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "ND02",
+      "dueDay" : "ND04",
+      "id" : "ECB2D20C-0558-45FA-BCD6-B7755E514F09",
+      "location" : "pg 615",
+      "name" : "Generics",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "ND05",
+      "dueDay" : "ND09",
+      "id" : "CB7A124D-F67A-4C17-AEBD-BCC4DA7D22AD",
+      "location" : "",
+      "name" : "#8 - Random APIs",
+      "type" : "project"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "ND09",
+      "dueDay" : "ND10",
+      "id" : "35B06B70-CBEC-4EA9-BBE4-55DCC8204420",
+      "location" : "",
+      "name" : "SwiftData To-Do List",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "ND10",
+      "dueDay" : "ND12",
+      "id" : "88F6702C-8B70-478E-BAD3-E4CEC4AFE33B",
+      "location" : "",
+      "name" : "SwiftData Journal",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "ND12",
+      "dueDay" : "ND13",
+      "id" : "0635BD40-218A-403A-BBAE-F84F2BD53EC4",
+      "location" : "",
+      "name" : "Other Architectures",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "ND13",
+      "dueDay" : "ND16",
+      "id" : "22D337B1-98A4-425C-95D8-861E4A212A93",
+      "location" : "",
+      "name" : "Advanced Navigation",
+      "type" : "lab"
+    },
+    "body" : "## Objectives\n- Implement a router in a practical setting\n\n## Overview\nYour studio MythWorks is about to pitch an AR dragon‑taming game to investors. While you haven't implemented the AR features just yet, you need to prep some UI for an investor meeting. Your boss's instructions are:\n\n“We need a DragonDex companion app by tomorrow. Players should be able to swipe through dragons, dive into their stats, read a list of special powers, and tweak the app’s theme color. Keep navigation pristine—one SwiftUI Router, zero spaghetti. Go!”\n\n\nBuild a router that will allow you to navigate through four screens:\n* Dragon List - Scrollable gallery of dragons (name & thumbnail).\n* Dragon Detail - Big artwork, species, lore snippet, fire rating, or whatever other data you want to include.\n* Powers List - Button on the detail screen pushes on a view that lists the dragons abilities (e.g., Inferno Burst, Sky Dive).\n* Settings - Gear icon on the dragon list screen opens a screen with a color picker which changes the background color of every screen.\n\nThe UI of the screens themselves can be barebones. The important thing is demonstrating your ability to build a router.\n\n## Black Diamond\n\n* Add a Tab Bar\n    * Tab 1 – Dragons (existing flow)\n    * Tab 2 – Riders (list of dragon riders → Rider Detail).\n\n* \tMultiple Routers\n    * \tMainRouter – handles tab switching + Settings sheet presentation.\n    * \tDragonsRouter – drives the DragonDex flow.\n    * \tRidersRouter – drives the rider flow.\n\n* \tSettings as a Sheet – Present the Settings screen modally through the MainRouter.\n\n"
+  },
+  {
+    "assignment" : {
+      "assignDay" : "ND15",
+      "dueDay" : "ND16",
+      "id" : "3F426597-8E89-414B-B080-6783F4C3CBDF",
+      "location" : "",
+      "name" : "Animation",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "ND16",
+      "dueDay" : "ND17",
+      "id" : "8378D941-405D-4F45-84D0-08FDC0AE3C76",
+      "location" : "",
+      "name" : "MatchedGeometryEffect & Custom Transitions",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "ND17",
+      "dueDay" : "ND20",
+      "id" : "EAAAF544-112F-4062-9879-7520D32302D1",
+      "location" : "",
+      "name" : "#9 - Games Tracker",
+      "type" : "project"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "ND20",
+      "dueDay" : "ST01",
+      "id" : "96A16854-E3F4-42B5-968A-1300F9765E40",
+      "location" : "",
+      "name" : "Pickers",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "ND21",
+      "dueDay" : "ST01",
+      "id" : "14093507-0199-4587-B738-42C125F9283B",
+      "location" : "",
+      "name" : "AsyncImage",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "ST01",
+      "dueDay" : "ST02",
+      "id" : "E35DEBBE-129D-4BF6-8AA9-FA1BFAE5EEC4",
+      "location" : "",
+      "name" : "GeometryReader",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "ST02",
+      "dueDay" : "ST04",
+      "id" : "60D736B8-DB3D-4FA5-A885-3B72638A5DEA",
+      "location" : "",
+      "name" : "LazyGrids",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "ST04",
+      "dueDay" : "ST05",
+      "id" : "068A0577-86CD-4829-B987-4CE390ADE790",
+      "location" : "",
+      "name" : "Custom Buttons & View Modifiers",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "ST05",
+      "dueDay" : "ST06",
+      "id" : "58ABE62E-F183-43E4-9400-F72437DC74CA",
+      "location" : "",
+      "name" : "View States & View Builders",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "ST06",
+      "dueDay" : "ST09",
+      "id" : "49DA5EB6-5C47-4811-8958-E6A11882B46E",
+      "location" : "",
+      "name" : "#10 - Recipe API",
+      "type" : "project"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "ST09",
+      "dueDay" : "ST15",
+      "id" : "5C913F71-2911-414C-99FC-C68DA635B877",
+      "location" : "",
+      "name" : "#11 - Trip Logger",
+      "type" : "project"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "ST15",
+      "dueDay" : "ST17",
+      "id" : "4A655F06-56F7-4D03-A7CA-D53044A45907",
+      "location" : "",
+      "name" : "UIKit",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "ST17",
+      "dueDay" : "ST18",
+      "id" : "330455A9-081C-4B74-986B-9EC558573556",
+      "location" : "",
+      "name" : "Integrating SwiftUI & UIKit",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "ST18",
+      "dueDay" : "FA01",
+      "id" : "7532E062-F1AD-4524-8E59-CA50BC9FACD2",
+      "location" : "",
+      "name" : "Unit Testing & TDD",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "FA01",
+      "dueDay" : "FA13",
+      "id" : "616267ED-C9B0-4226-A8CA-BDA69A20A7A0",
+      "location" : "",
+      "name" : "Tech Social Media App",
+      "type" : "project"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "FA05",
+      "dueDay" : "PC01",
+      "id" : "28C80E7C-C6C5-429E-A96B-7EB8F7D80C90",
+      "location" : "",
+      "name" : "Capstone Pitch",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "FA14",
+      "dueDay" : "FA15",
+      "id" : "6FB07A92-F7E8-4198-8A24-DD4DF90A0EDB",
+      "location" : "",
+      "name" : "Resume",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "FA15",
+      "dueDay" : "FA16",
+      "id" : "D8B5ECB1-09A0-4A97-998C-541BACDEBC91",
+      "location" : "",
+      "name" : "LinkedIn",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "FA18",
+      "dueDay" : "FA20",
+      "id" : "7A89AA81-7D69-4246-8E76-A995ECC7376C",
+      "location" : "",
+      "name" : "Mock Interview 1",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "FA18",
+      "dueDay" : "FA20",
+      "id" : "579952B4-20CA-4476-8603-14F244F23727",
+      "location" : "",
+      "name" : "Mock Interview 2",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "PC01",
+      "dueDay" : "PC02",
+      "id" : "34450A5F-49DC-4AB7-90FE-5832065E4350",
+      "location" : "",
+      "name" : "Personal Capstone Plan",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "PC01",
+      "dueDay" : "PC26",
+      "id" : "53FBD497-0EB0-4895-884D-B7409E2BD8AF",
+      "location" : "",
+      "name" : "Presentation of Personal Capstone",
+      "type" : "lab"
+    },
+    "body" : "# Presentation of Personal Capstone\nApp Store Published (Soft Deadline) Lab Requirements - Due Apr 2, 2026\n\n\n\n"
+  },
+  {
+    "assignment" : {
+      "assignDay" : "PC01",
+      "dueDay" : "GC15",
+      "id" : "3130670B-9DFC-4A17-8830-2F3F3031BAAF",
+      "location" : "",
+      "name" : "Personal Capstone Submitted to Apple for Review Deadline",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "PC01",
+      "dueDay" : "GC27",
+      "id" : "FC9E646A-243E-459E-AFC0-5912EFA73A26",
+      "location" : "",
+      "name" : "Personal Capstone on App Store",
+      "type" : "project"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "PC04",
+      "dueDay" : "PC20",
+      "id" : "418E183A-136F-4588-9A3B-56CFEC1E64DB",
+      "location" : "",
+      "name" : "Personal Capstone Beta",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "PC04",
+      "dueDay" : "PC04",
+      "id" : "1E580C5F-C5B3-4CB8-B6CE-1B2CC78D7AE6",
+      "location" : "",
+      "name" : "Software Release Cycle Notes",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "PC21",
+      "dueDay" : "PC22",
+      "id" : "2025A711-9719-467D-9271-AA564FB24A86",
+      "location" : "",
+      "name" : "Capstone pushed to TestFlight",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "PC21",
+      "dueDay" : "PC25",
+      "id" : "3EEA1F21-A0E1-4F57-8A18-1C69F41656B6",
+      "location" : "",
+      "name" : "Personal Capstone TestFlight Tests",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "GC01",
+      "dueDay" : "GC21",
+      "id" : "2FE4C64C-DA5A-4149-80DE-5C3D46794BBC",
+      "location" : "",
+      "name" : "Group Capstone Alpha",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "GC01",
+      "dueDay" : "GC04",
+      "id" : "DC0F8F53-4F5A-4947-9098-3C7371CCB598",
+      "location" : "",
+      "name" : "Group Capstone Plan",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "GC01",
+      "dueDay" : "GC01",
+      "id" : "6BF5ED0D-43DA-4945-928D-BA6A98321E52",
+      "location" : "",
+      "name" : "Collaborating with Git and GitHub Notes",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "GC01",
+      "dueDay" : "GC27",
+      "id" : "B085A2A6-01B0-4011-ACF3-28F4AAC2422C",
+      "location" : "",
+      "name" : "Group Capstone Presentation",
+      "type" : "project"
+    },
+    "body" : "# Group Capstone Presentation\nApp Store Published (Hard Deadline) Lab Requirements - Due May 14, 2026\n\n\n\n"
+  },
+  {
+    "assignment" : {
+      "assignDay" : "GC01",
+      "dueDay" : "GC25",
+      "id" : "7E196130-E30B-4784-8C8F-4E77E77F84E8",
+      "location" : "",
+      "name" : "Group Capstone Beta",
+      "type" : "lab"
+    },
+    "body" : ""
+  },
+  {
+    "assignment" : {
+      "assignDay" : "GC02",
+      "dueDay" : "GC03",
+      "id" : "6E40D6F9-929E-4841-A9BB-79964D29E029",
+      "location" : "",
+      "name" : "Agile and Scrum Notes",
+      "type" : "lab"
+    },
+    "body" : "Take notes on today's lesson on Agile & Scrum. Check off your notes with an instructor for credit for today's assignment. No specific note taking structure or amount is required, just be thorough.\n\n"
+  },
+  {
+    "assignment" : {
+      "assignDay" : "GC03",
+      "dueDay" : "GC04",
+      "id" : "C4CDE194-11A3-4351-BA2A-C8C49099F8B4",
+      "location" : "",
+      "name" : "Project Management & Sprint Planning Notes",
+      "type" : "lab"
+    },
+    "body" : ""
+  }
+]
