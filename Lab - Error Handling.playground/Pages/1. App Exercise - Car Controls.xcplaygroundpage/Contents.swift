@@ -3,34 +3,43 @@
  
  You are building an app that allows remote control of a new car. A function `startEngine()` has been created for you. If the gas tank is empty, an error called `RemoteError.outOfGas` should be thrown. Create an enum called `RemoteError` that conforms to the Error protocol, add the `outOfGas` case, then throw it in the startEngine function.
  */
-
 var engineRunning = false
 
+enum RemoteError: Error {
+    case outOfGas
+    case notInPark
+}
+
 func startEngine(gallonsGasInTank: Int) throws {
-    if gallonsGasInTank >= 0 {
+    if gallonsGasInTank > 0 {
         engineRunning = true
+        print("Engine started.")
     } else {
-        // Throw an error
+        throw RemoteError.outOfGas
     }
 }
 
-//:  The second function, `turnOnClimateControl(temp:)`, should turn on the heater or A/C so that the user can adjust the climate in their car before getting in. If the engine is off, this function will turn it on automatically before running the climate controls. In the if statement, call the `startEngine` function, using a `try` keyword. Mark the `turnOnClimateControl(temp:)` function with `throws` so that errors caused by `startEngine` are passed along.
 
+//:  The second function, `turnOnClimateControl(temp:)`, should turn on the heater or A/C so that the user can adjust the climate in their car before getting in. If the engine is off, this function will turn it on automatically before running the climate controls. In the if statement, call the `startEngine` function, using a `try` keyword. Mark the `turnOnClimateControl(temp:)` function with `throws` so that errors caused by `startEngine` are passed along.
 var currentTemperature: Int = 81
 
-func turnOnClimateControl(temp: Int) {
+func turnOnClimateControl(temp: Int) throws {
     if engineRunning == false {
-        // Start engine
+        try startEngine(gallonsGasInTank: 10)
     }
-    
+
     currentTemperature = temp
+    print("Climate control set to \(temp)°")
 }
 
 //:  Now use a `do`/`catch` statement to try calling `turnOnClimateControl(temp:)`. Print any caught errors to the log.
-
+do {
+    try turnOnClimateControl(temp: 72)
+} catch {
+    print("Error turning on climate control: \(error)")
+}
 
 //:  Lastly, users should be able to lock and unlock the doors of their car remotely. This function should only work if the car is currently in park. A `Gear` enum has been provided; create a throwing function called `toggleDoorLocks` that checks whether the car is in park, toggling the `locked` variable if so and throwing an error if not. Add an appropriate error to the RemoteError enum cases for this purpose.
-
 enum Gear {
     case park, drive, neutral, reverse
 }
@@ -38,7 +47,31 @@ enum Gear {
 var selectedGear: Gear = .drive
 var locked = true
 
+func toggleDoorLocks() throws {
+    if selectedGear == .park {
+        locked.toggle()
+        let state = locked ? "locked" : "unlocked"
+        print("Doors are now \(state).")
+    } else {
+        throw RemoteError.notInPark
+    }
+}
+
+
 //:  Test out your `toggleDoorLocks` function in a do/catch statement.
+do {
+    selectedGear = .drive
+    try toggleDoorLocks()
+} catch {
+    print("Error toggling door locks: \(error)")
+}
+
+do {
+    selectedGear = .park
+    try toggleDoorLocks()
+} catch {
+    print("Error toggling door locks: \(error)")
+}
 
 
 /*:

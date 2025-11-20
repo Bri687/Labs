@@ -3,14 +3,32 @@
  
  A better approach to the previous exercise might be using the LocalizedError protocol, so that the printed output of each error is contained in a `errorDescription` property. Using the error messages you created in the last step, change `CommunicationError` to conform to `LocalizedError`. Add an `errorDescription` computed String property, switching on self to return the appropriate message.
  */
+import Foundation
 
-enum CommunicationError: Error {
+enum CommunicationError: Error, LocalizedError {
     case networkServiceUnavailable
     case invalidMessage(String)
     case timedOut(waitTime: Int)
     case cancelledByUser
     case rejectedByServer(reason: String)
     case unknown
+
+    var errorDescription: String? {
+        switch self {
+        case .networkServiceUnavailable:
+            return "Communication error: The network service is currently unavailable."
+        case .invalidMessage(let message):
+            return "Communication error due to invalid message: \(message)"
+        case .timedOut(let waitTime):
+            return "Communication error: The request timed out after waiting \(waitTime) seconds."
+        case .cancelledByUser:
+            return "Communication cancelled: The user stopped the request."
+        case .rejectedByServer(let reason):
+            return "Communication error: The server rejected the request. Reason: \(reason)"
+        case .unknown:
+            return "Communication error: An unknown error occurred."
+        }
+    }
 }
 
 func sendPacket() throws {
@@ -31,13 +49,13 @@ func sendPacket() throws {
         throw CommunicationError.unknown
     }
 }
-
 /*:
  Now, use only one catch block below to catch all errors, printing the error's `errorDescription` to the console. Test your code several times.
  */
-
 do {
     try sendPacket()
+} catch let error as CommunicationError {
+    print(error.errorDescription ?? "Unknown communication error.")
 }
 
 /*:

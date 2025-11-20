@@ -3,7 +3,6 @@
  
  Much of error handling is used in conjunction with networking related code, which is prone to failure due to outside circumstances. Provided below is an `Error` conforming enum `CommunicationError` with several cases, some of which have associated values. In the exercises below, you will need to handle each case appropriately. For simplicity's sake, the `sendPacket` function simulates this by generating a random error from the list.
  */
-
 enum CommunicationError: Error {
     case networkServiceUnavailable
     case invalidMessage(String)
@@ -35,11 +34,29 @@ func sendPacket() throws {
 /*:
  First, remove the question mark from `try?` so that errors from `sendPacket` will be caught. Then, add a `catch` statement for each error. If the error has an associated value, assign that value to a constant with an appropriate name. The first one has been created for you.
  */
-
 do {
-    try? sendPacket()
-} catch CommunicationError.networkServiceUnavailable {
+    try sendPacket()
     
+} catch CommunicationError.networkServiceUnavailable {
+    print("Communication error: The network service is currently unavailable.")
+    
+} catch CommunicationError.invalidMessage(let message) {
+    print("Communication error due to invalid message: \(message)")
+    
+} catch CommunicationError.timedOut(let waitTime) {
+    print("Communication error: The request timed out after waiting \(waitTime) seconds.")
+    
+} catch CommunicationError.cancelledByUser {
+    print("Communication cancelled: The user stopped the request.")
+    
+} catch CommunicationError.rejectedByServer(let reason) {
+    print("Communication error: The server rejected the request. Reason: \(reason)")
+    
+} catch CommunicationError.unknown {
+    print("Communication error: An unknown error occurred.")
+    
+} catch {
+    print("Unexpected error: \(error)")
 }
 
 /*:
